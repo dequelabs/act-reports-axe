@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "license": "UNLICENSED",
   "scripts": {
-    "report": "ts-node src/axeRunner.ts"
+    "report": "ts-node src/axeRunner.ts",
+    "test": "jest"
   },
   "dependencies": {
     "@axe-core/puppeteer": "@latest",
