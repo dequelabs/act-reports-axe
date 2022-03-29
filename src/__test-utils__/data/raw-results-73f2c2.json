@@ -1,0 +1,101 @@
+[
+  [
+    {
+      "id": "autocomplete-valid",
+      "result": "passed",
+      "pageLevel": false,
+      "impact": null,
+      "tags": ["cat.forms", "wcag21aa", "wcag135"],
+      "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+      "help": "autocomplete attribute must be used correctly",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.2/autocomplete-valid?application=axe-puppeteer",
+      "inapplicable": [],
+      "passes": [
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "autocomplete-valid",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "the autocomplete attribute is correctly formatted"
+            },
+            {
+              "id": "autocomplete-appropriate",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "the autocomplete value is on an appropriate element"
+            }
+          ],
+          "none": [],
+          "node": {
+            "_fromFrame": false,
+            "spec": {},
+            "source": "<input autocomplete=\"section-primary shipping work email\">",
+            "_element": {}
+          },
+          "impact": null,
+          "result": "passed"
+        }
+      ],
+      "incomplete": [],
+      "violations": []
+    }
+  ],
+  [
+    {
+      "id": "autocomplete-valid",
+      "result": "failed",
+      "pageLevel": false,
+      "impact": "serious",
+      "tags": ["cat.forms", "wcag21aa", "wcag135"],
+      "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+      "help": "autocomplete attribute must be used correctly",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.2/autocomplete-valid?application=axe-puppeteer",
+      "inapplicable": [],
+      "passes": [],
+      "incomplete": [],
+      "violations": [
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "autocomplete-valid",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "the autocomplete attribute is incorrectly formatted"
+            }
+          ],
+          "none": [],
+          "node": {
+            "_fromFrame": false,
+            "spec": {},
+            "source": "<input autocomplete=\"badterm\">",
+            "_element": {}
+          },
+          "impact": "serious",
+          "result": "failed"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": "autocomplete-valid",
+      "result": "inapplicable",
+      "pageLevel": false,
+      "impact": null,
+      "tags": ["cat.forms", "wcag21aa", "wcag135"],
+      "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+      "help": "autocomplete attribute must be used correctly",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/3.2/autocomplete-valid?application=axe-puppeteer",
+      "inapplicable": [],
+      "passes": [],
+      "incomplete": [],
+      "violations": []
+    }
+  ]
+]

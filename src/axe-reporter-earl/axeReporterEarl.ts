@@ -78,7 +78,7 @@ export function earlAssertion({
   mode = "automatic",
   outcome = "untested"
 }: AssertionArg): Assertion {
-  if (!source) {
+  if (typeof source !== 'string') {
     throw new Error('Source must be defined')
   }
   const assertion: Assertion = {

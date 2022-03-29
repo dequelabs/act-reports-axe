@@ -1,5 +1,6 @@
+import { readFileSync } from 'fs'
+import axios from 'axios'
 import { TestCase } from "../types";
-import axios from 'axios';
 
 type TestCaseGrouping = Record<string, TestCase[]>
 
@@ -9,22 +10,11 @@ type TestCaseGrouping = Record<string, TestCase[]>
  * @param {String} testsJson path to testcases json
  * @param {String} ruleId (Optional) rule id to only fetch testcases for a given rule
  */
-export const groupedTestCases = async (
-  testCaseJson: string,
+export const groupedTestCases = (
+  testCases: TestCase[],
   ruleId?: string
-): Promise<TestCase[][]> => {
-  let testCasesData;
-  try {
-    testCasesData = (await axios.get(testCaseJson)).data as { testcases: TestCase[] }
-  } catch (error) {
-    throw new Error(`Given JSON - ${testCaseJson} cannot be read`);
-  }
-  const { testcases } = testCasesData;
-  if (!testcases || !testcases.length) {
-    throw new Error(`Given testcases JSON does not contain tests`);
-  }
-
-  const groupedTestcasesByRuleId = testcases.reduce((out: TestCaseGrouping, tc) => {
+): TestCase[][] => {
+  const groupedTestcasesByRuleId = testCases.reduce((out: TestCaseGrouping, tc) => {
     if (!out[tc.ruleId]) {
       out[tc.ruleId] = [];
     }
@@ -35,6 +25,28 @@ export const groupedTestCases = async (
   if (ruleId) {
     return [groupedTestcasesByRuleId[ruleId]];
   }
-
   return Object.values(groupedTestcasesByRuleId);
 };
+
+type TestCaseJson = {
+  testcases: TestCase[]
+}
+
+export async function loadTestCases(testCaseJson: string): Promise<TestCase[]> {
+  let testCasesData: TestCaseJson
+  try {
+    if (testCaseJson.includes('://')) {
+      testCasesData = (await axios.get<TestCaseJson>(testCaseJson)).data
+    } else {
+      const fileContent = readFileSync(testCaseJson, 'utf8');
+      testCasesData = (JSON.parse(fileContent) as TestCaseJson);
+    }
+  } catch (error) {
+    throw new Error(`Given JSON - ${testCaseJson} cannot be read`);
+  }
+  const { testcases } = testCasesData;
+  if (!testcases || !testcases.length) {
+    throw new Error(`Given testcases JSON does not contain tests`);
+  }
+  return testcases;
+}

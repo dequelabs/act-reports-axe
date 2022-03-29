@@ -1,7 +1,7 @@
 import * as fs from 'fs'
 import * as path from 'path';
 import { Config, TestCase, Assertion, EarlReport } from '../types';
-import { groupedTestCases } from './groupTestCases';
+import { groupedTestCases, loadTestCases } from './groupTestCases';
 import { runRuleTests, PageRunner } from './runRuleTests';
 
 export const runTestCases = async (
@@ -10,7 +10,8 @@ export const runTestCases = async (
 ): Promise<EarlReport[]> => {
   const { testCaseJson, ruleId } = config;
   const cacheResults = getCacheResults(config);
-  const tests = await groupedTestCases(testCaseJson, ruleId);
+  const testCases = await loadTestCases(testCaseJson);
+  const tests = groupedTestCases(testCases, ruleId);
   const results = [];
 
   for (let testcases of tests) {
