@@ -95,7 +95,6 @@ function timeoutReject(t: number, msg: string): Promise<void> {
 
 /**
  * Get extension from path
- * @param {String} str string of file path or url
  */
 function getFileExtension(str: string) {
   const filename = path.basename(str);
@@ -105,8 +104,6 @@ function getFileExtension(str: string) {
 
 /**
  * Get axe rules to run
- * @param {String[]} tags tags
- * @param {String} ruleId rule id
  */
 function getAxeRuleIdsToRun(tags: string[], ruleId: string): string[] {
   const axeRules = axe.getRules(tags);

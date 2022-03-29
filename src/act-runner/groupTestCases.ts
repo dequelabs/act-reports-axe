@@ -6,9 +6,6 @@ type TestCaseGrouping = Record<string, TestCase[]>
 
 /**
  * Get testcases of ACT Rules (eg: `https://act-rules.github.io/testcases.json`) and then group the same based on ruleId
- *
- * @param {String} testsJson path to testcases json
- * @param {String} ruleId (Optional) rule id to only fetch testcases for a given rule
  */
 export const groupedTestCases = (
   testCases: TestCase[],

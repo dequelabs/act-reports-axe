@@ -1,4 +1,3 @@
-import * as path from 'path';
 import { Config, EarlReport } from "../../types";
 import { setup } from '../../__test-utils__/utils';
 import { runTestsInPage } from "../runTestsInPage"

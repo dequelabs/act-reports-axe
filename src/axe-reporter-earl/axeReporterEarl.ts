@@ -1,10 +1,6 @@
 import * as context from './context';
 import { RawResult, Env, Assertion, EarlReport } from '../types';
 
-/**
- * @method axeReporterEarl
- * @param {Object} param
- */
 export default function axeReporterEarl(
   ruleResults: RawResult[],
   env: Env
@@ -105,7 +101,6 @@ export function earlAssertion({
 
 /**
  * Concat multiple assertions
- * @param {Object} testResults
  */
 export function concatReport(testResults: EarlReport[]): EarlReport {
   // Flatten the graphs into a single array
