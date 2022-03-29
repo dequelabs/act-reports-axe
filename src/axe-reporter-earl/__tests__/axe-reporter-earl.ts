@@ -1,5 +1,5 @@
 import axeReporterEarl, { earlUntested, concatReport } from "../axeReporterEarl";
-import * as context from '../context';
+import context from '../context';
 import raw from '../../__test-utils__/data/raw-results-73f2c2.json';
 import { Env, RawResult } from "../../types";
 import 'jest-extended';

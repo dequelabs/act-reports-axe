@@ -1,4 +1,4 @@
-import * as context from './context';
+import context from './context';
 import { RawResult, Env, Assertion, EarlReport } from '../types';
 
 export default function axeReporterEarl(
