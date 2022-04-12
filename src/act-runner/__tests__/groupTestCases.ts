@@ -24,8 +24,8 @@ describe(`group-testcases`, () => {
   test.each(ruleIdResults)(
     'has only testcases of the rule "Autocomplete valid (73f2c2)"',
     ruleTestcases => {
-      const { url, ruleId } = ruleTestcases;
-      expect(url.includes(ruleId));
+      const { url } = ruleTestcases;
+      expect(url.includes('73f2c2'));
     }
   );
 });
