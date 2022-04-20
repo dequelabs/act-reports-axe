@@ -1,5 +1,6 @@
 import context from './context';
 import { RawResult, Env, Assertion, EarlReport } from '../types';
+import { tagsToWcagUrls } from './tagsToWcagUrls';
 
 export default function axeReporterEarl(
   ruleResults: RawResult[],
@@ -21,6 +22,7 @@ export default function axeReporterEarl(
           outcome: "inapplicable",
           ruleId: ruleResult.id,
           source: url,
+          tags: ruleResult.tags,
           version
         })
       );
@@ -34,6 +36,7 @@ export default function axeReporterEarl(
             // @ts-ignore
             outcome: outcomeMap[axeType] || axeType,
             ruleId: ruleResult.id,
+            tags: ruleResult.tags,
             source: url,
             version
           })
@@ -51,6 +54,7 @@ export default function axeReporterEarl(
 export function earlUntested({ url, version }: Env) {
   const untestedAssertion = earlAssertion({
     source: url,
+    tags: [],
     version
   });
   return {
@@ -64,6 +68,7 @@ type AssertionArg = {
   version?: string,
   ruleId?: string
   mode?: string
+  tags: string[]
   outcome?: string
 }
 
@@ -71,6 +76,7 @@ export function earlAssertion({
   source,
   version,
   ruleId,
+  tags,
   mode = "automatic",
   outcome = "untested"
 }: AssertionArg): Assertion {
@@ -90,11 +96,15 @@ export function earlAssertion({
 
   if (ruleId) {
     const minor = version?.match(/[0-9]+\.[0-9]+/)?.[0] || '4.4';
+    const wcagUrls = tagsToWcagUrls(tags);
     assertion.test = {
       "@type": "TestCase",
       title: ruleId,
       "@id": `https://dequeuniversity.com/rules/axe/${minor}/${ruleId}?application=axeAPI`
     };
+    if (wcagUrls.length) {
+      assertion.test.isPartOf = wcagUrls
+    }
   }
   return assertion;
 }

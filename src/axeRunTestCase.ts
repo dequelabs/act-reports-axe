@@ -63,7 +63,7 @@ export const axeRunTestCase: ToolRunner = async (
       // check for inapplicable file extensions
       if (inapplicableFileExtensions.includes(extn)) {
         raw = axeRulesIds.map(ruleId => {
-          return { result: `inapplicable`, id: ruleId };
+          return { result: `inapplicable`, id: ruleId, tags: [] };
         });
       } else {
         // Setup axe-puppeteer with the correct SC

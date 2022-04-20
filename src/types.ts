@@ -23,6 +23,7 @@ export type TestCase = {
 export type RawResult = {
   result: string
   id: string
+  tags: string[]
   passes?: string[]
   incomplete?: string[]
   inapplicable?: string[]
@@ -49,6 +50,7 @@ export type Assertion = {
   test?: {
     "@type": string,
     title: string,
+    isPartOf?: string[]
     "@id": string
   };
 }
