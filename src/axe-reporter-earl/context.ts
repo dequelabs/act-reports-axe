@@ -8,5 +8,9 @@ export default {
   title: "dct:title",
   assertedBy: { "@type": "@id" },
   outcome: { "@type": "@id" },
-  mode: { "@type": "@id" }
+  mode: { "@type": "@id" },
+  isPartOf: {
+    "@id": "http://purl.org/dc/terms/isPartOf",
+    "@type": "@id"
+  }
 };
