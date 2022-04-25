@@ -4,7 +4,8 @@
   "license": "UNLICENSED",
   "scripts": {
     "report": "ts-node src/axeRunner.ts",
-    "test": "jest"
+    "test": "jest",
+    "develop": "jest --watch"
   },
   "dependencies": {
     "@axe-core/puppeteer": "@latest",
