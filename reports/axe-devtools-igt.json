@@ -15,11 +15,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/qt1vmo/be6b29e220d6afbd827625c602ec49027e73fdf1.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/off6ek/ec40c0a032b11cabc03d71b6884ab9b85ee160ad.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "alt-text-short-text-not-meaningful (Images)"
+        "title": "lang-change-not-valid (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.1.2"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -30,11 +36,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/qt1vmo/dd2f262645db0f473e294a02dff5576c6ccfe133.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/off6ek/df9260fddb4d08ca0669bea363828d089b36317b.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "alt-text-short-text-not-meaningful (Images)"
+        "title": "lang-change-not-valid (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.1.2"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -45,11 +57,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/qt1vmo/ae213da4816dd48515ff973df1579788bf1c1f33.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/off6ek/53d05e6fdcc63ff61ef1e5ea8454eea318aa038a.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "alt-text-short-text-not-meaningful (Images)"
+        "title": "lang-change-not-valid (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.1.2"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -60,11 +78,38 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/qt1vmo/530266c6116fcfad12561e9e1a407fa0a0da3435.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/off6ek/61c507e0aab456cce20538400fc1067be37953a0.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "alt-text-short-text-not-meaningful (Images)"
+        "title": "lang-change-not-valid (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.1.2"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/off6ek/5b88bdc5f7d936eaa1fdd2f5f8fdd4022548d5ac.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "lang-change-not-valid (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.1.2"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -75,11 +120,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/qt1vmo/a4b5c0fab27d0ca16b93e8c374c96ad13172e94e.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/off6ek/ffcbd35493c91b4d8ee42c3a7fba9c2356144257.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "alt-text-short-text-not-meaningful (Images)"
+        "title": "lang-change-not-valid (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.1.2"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -90,11 +141,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/qt1vmo/4fba9938782523d464380318c97357e2eaed9cec.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/off6ek/d00a83015b309b51bebfc2c85f62488daec3a5d1.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "alt-text-short-text-not-meaningful (Images)"
+        "title": "lang-change-not-valid (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.1.2"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -105,11 +162,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/qt1vmo/c1f626c67e8260ee8772b66ef5f9e20708719547.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/off6ek/1aebc3e73c262d1417cfffd8c6e50cfb5fc37f82.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "alt-text-short-text-not-meaningful (Images)"
+        "title": "lang-change-not-valid (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.1.2"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -120,11 +183,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/qt1vmo/0d650d35e4f2920b9e6496db64f48657fc465694.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/off6ek/39063a3b4d2872cbadefc9e252d0492ba44ff74f.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "alt-text-short-text-not-meaningful (Images)"
+        "title": "lang-change-not-valid (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.1.2"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -135,11 +204,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/qt1vmo/a72201fd013b7bce9c81bf71dcaa0ff5da05f53b.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/off6ek/9fa4aaa2575cccf2f83db23b8a66a584cee96486.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "alt-text-short-text-not-meaningful (Images)"
+        "title": "lang-change-not-valid (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.1.2"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -150,11 +225,38 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/qt1vmo/91f76cb178ce3ed9df8257b4717d0e5f44b4b647.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/off6ek/895a754e85f4fbc8e11cea52295381f41eb384ca.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "alt-text-short-text-not-meaningful (Images)"
+        "title": "lang-change-not-valid (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.1.2"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/cc0f0a/6b256544fb761a04ec863859b1fe5a5c84d096af.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "label-visible-not-descriptive (forms)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.6"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -165,11 +267,143 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/qt1vmo/c23abbdcfd6eac72d1e0cd81d8e7861f186de84c.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/cc0f0a/1a9ad651245309194777d426823bbd4ad9aade7a.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "alt-text-short-text-not-meaningful (Images)"
+        "title": "label-visible-not-descriptive (forms)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.6"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/cc0f0a/181fba1970041478bf4466ea3e16cb82178404d1.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "label-visible-not-descriptive (forms)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.6"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/cc0f0a/39a5a085f5d5455d67ba73e192d936b2fc9b366e.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "label-visible-not-descriptive (forms)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.6"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/cc0f0a/9b967559ff2691dc30436766f53feea55447b348.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "label-visible-not-descriptive (forms)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.6"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/cc0f0a/1e52060759a535934176a5a981446066aad6b31f.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "label-visible-not-descriptive (forms)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.6"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/cc0f0a/fa5104f9bd07fe52813d7e511c3cc87c4c1cf232.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "label-visible-not-descriptive (forms)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.6"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/cc0f0a/1d7c2f68ba65c3d81cb8a858f52be30d48a296c3.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "label-visible-not-descriptive (forms)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.6"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -180,56 +414,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/qt1vmo/001254f2e5a4f661d6abd4534a921c200b19f5e4.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/cc0f0a/4941fb38e0b80fcc7b74e114dc57dd799dbdd4af.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "alt-text-short-text-not-meaningful (Images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/qt1vmo/176b55978e41a84e0fb2f09605f84cdbc6004950.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "alt-text-short-text-not-meaningful (Images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/qt1vmo/7a17a37233303419f232230ee2bece7502ed8f96.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "alt-text-short-text-not-meaningful (Images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/qt1vmo/96471b44c91fe8200f159d0890889e2e10cc7d44.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "alt-text-short-text-not-meaningful (Images)"
+        "title": "label-visible-not-descriptive (forms)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.6"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -240,176 +435,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/qt1vmo/2ff8f65284c144bb9aaca30e88f32154e4a6a4d8.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/cc0f0a/80a4987bcfc497e90415cd6618a78842073c5768.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "alt-text-short-text-not-meaningful (Images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/qt1vmo/0ef4f516db9ed70cb25f39c99637272808b8e60f.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "alt-text-short-text-not-meaningful (Images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/qt1vmo/766587b669e2928e8c5f21e3b1cd97e5b3e27a07.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "alt-text-short-text-not-meaningful (Images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/qt1vmo/736732db66e5b294bc82833892dec24ab5993f2a.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "alt-text-short-text-not-meaningful (Images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/0va7u6/67b27814b7da90341ba474265af9ec0bc9198238.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "image-of-text (Images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/0va7u6/942866fcc4781a2e2d442a29e7d841058796eac8.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "image-of-text (Images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/0va7u6/f70991c23997820c3b3f61c0a6c5beb56c8a4e14.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "image-of-text (Images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/0va7u6/9e1a5c362cd64bcf97744e48b407b6fe60caa1e9.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "image-of-text (Images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/0va7u6/bd472eb44b2853b4bf7eaf7f88ffeb5f6e8e7f8f.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "image-of-text (Images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/0va7u6/58c4edcf154896a265b73314180db6bd37efc6d1.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "image-of-text (Images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/0va7u6/09f2e26101fbedec4be3556213ad302236ab13f2.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "image-of-text (Images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/0va7u6/3fb4eeff95cbc01eb7e9dec5460486b4a3cd1db9.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "image-of-text (Images)"
+        "title": "label-visible-not-descriptive (forms)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.6"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -420,26 +456,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/0va7u6/6685213ba1e67946fad8971aa0029d4bfbd62e69.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/cc0f0a/83b8c1e9bad05e9f72b0bcdbb60204ad9c5594c3.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "image-of-text (Images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/0va7u6/fa340d3fa83fbc9819edd7d31cdfebd465056644.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "image-of-text (Images)"
+        "title": "label-visible-not-descriptive (forms)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.6"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -450,11 +477,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/0va7u6/30562e91bfa69774976ad8eb5b99c8b9f79a0033.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/b49b2e/25cb1d68473c174a3f3e464704de6826b7aabdd4.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "image-of-text (Images)"
+        "title": "heading-not-descriptive (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.6"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -465,11 +498,80 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/0va7u6/d90d6256fb0742b3bdad088c1dfdf37b34af1668.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/b49b2e/8a83ca44601cb4ab173c388413df9649c8aac11f.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "image-of-text (Images)"
+        "title": "heading-not-descriptive (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.6"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/b49b2e/ba0b707c149d4eadacd2bab8ce1352f05e53542d.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "heading-not-descriptive (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.6"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/b49b2e/14ecbd9d655c833f5f9c5ee9563c472faee663c4.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "heading-not-descriptive (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.6"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/b49b2e/3ab7de594473cac4745adce5edac1b4143aff701.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "heading-not-descriptive (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.6"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -480,11 +582,563 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/0va7u6/16fe8037b7b217310433b24eaab4ca0bc315afae.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/b49b2e/fd12fb78f149251c49409189ee65a041c7d03ec5.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "image-of-text (Images)"
+        "title": "heading-not-descriptive (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.6"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/b49b2e/79cce8d89309bea03e122d2917d340a525db4de0.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "heading-not-descriptive (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.6"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/b49b2e/acae544ba63bf9c71988fb67d491c7d404164f52.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "heading-not-descriptive (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.6"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/b49b2e/00cf4d32e4f2a8443a16ba0a6eb1dee549a516a6.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "heading-not-descriptive (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.6"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/b49b2e/d76e8834b616356b2803586a8fbd0825a84e3fc8.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "heading-not-descriptive (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.6"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/b49b2e/69658c922aa926b0b8e4e1f113620c1dff5d64a9.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "heading-not-descriptive (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.6"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/b49b2e/b410a7146d5f4f634ae1611cf2f3ed6d8f9c74ed.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "heading-not-descriptive (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.6"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/b49b2e/b67b5eda7529c918280b442609e5b7d59c57317b.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "heading-not-descriptive (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.6"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/b49b2e/26d71f03f10bc14b28212699eddafe17adafc6b8.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "heading-not-descriptive (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.6"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ucwvc8/96785fb73282803fa4ca791ffdc0c3bc46b90702.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "lang-not-accurate (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ucwvc8/cd7898c9fcd7d06565cd55393310c2600ffc070f.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "lang-not-accurate (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ucwvc8/5f654ecf0b7a0af4d0ba120a5cd1db2761ffa79c.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "lang-not-accurate (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ucwvc8/a67210a4d3e4db840309518c1ec557459b709206.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "lang-not-accurate (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ucwvc8/b1a2ce0c3435765e96d31a3262f1ed8c1d92f817.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "lang-not-accurate (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ucwvc8/6616b9ffd712e7789c50b01da8420fd665786677.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "lang-not-accurate (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ucwvc8/61b97f487132c7aca3dd9787e9ff1454903d45fb.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "lang-not-accurate (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ucwvc8/c4eaf50df4fa37f931374c74ac369a018b780ec6.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "lang-not-accurate (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ucwvc8/864ccfb9bdb2c7f797602c5e4f25d1a0ad2aad7c.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "lang-not-accurate (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ucwvc8/941efb7368e46b27b937d34b07fc4d41da01b002.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "lang-not-accurate (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ucwvc8/dbc6a8459d78e618aab31e7051b4ce69b59c7f2f.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "lang-not-accurate (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ucwvc8/80e6225b051ac34c23c7c0ede7d28d426d1be084.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "lang-not-accurate (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/36b590/e2cc934a42be5a597106214fa0fbcefd6ceac599.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "form-error-required-unclear + instructions-not-included (forms)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.3.2"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/36b590/3bb6b76d2dd823e02cace7c6be2a7ebe535d1d97.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "form-error-required-unclear + instructions-not-included (forms)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.3.2"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/36b590/e76345ab4164567a24c0dc9dece56cee1794dc0c.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "form-error-required-unclear + instructions-not-included (forms)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.3.2"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/36b590/ddcd6a3065a711139251df4ab4777ae096856c58.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "form-error-required-unclear + instructions-not-included (forms)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.3.2"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/36b590/d7863608ff2aab99c43663cb3701c65c28b75c23.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "form-error-required-unclear + instructions-not-included (forms)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.3.2"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/36b590/ac63f6ffcb1831a5614e525627822e7a6f15343d.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "form-error-required-unclear + instructions-not-included (forms)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 3.3.2"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -495,56 +1149,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/0va7u6/0b64fa851ffa99c820affa46009eb96b49c86488.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/c4a8a4/c19c231ab5175fb62b6a74b998aec0dd965c25c5.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "image-of-text (Images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/c4a8a4/64ad3868e9022dcfa3f8ba5a3ac1943fd1a9a240.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "title-not-meaningful (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/c4a8a4/e53e988e29ce9f96fb282825cc089df9b5b65753.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "title-not-meaningful (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/c4a8a4/30012df5a74ec5df2f74d8522c451233882d5f3a.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "title-not-meaningful (structure)"
+        "title": "title-not-meaningful (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.2"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -555,11 +1170,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/c4a8a4/23ecf6c48bb8c1619c59cdbc5fe2e6def8f80d6e.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/c4a8a4/107a5e462b4ad6dd297742a2a177e24d32d27c26.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "title-not-meaningful (structure)"
+        "title": "title-not-meaningful (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.2"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -570,11 +1191,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/c4a8a4/5e5cb1efed740d903d45d885d47363a5b068274f.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/c4a8a4/2f9709573bf080a0feccfb2fd4b4a657383ef235.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "title-not-meaningful (structure)"
+        "title": "title-not-meaningful (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.2"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -585,11 +1212,59 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/c4a8a4/d0b46bc711c959aa806b3163439fc5841307c789.svg"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/c4a8a4/2c1397032aad720fe43dee2be0d326be56957320.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "title-not-meaningful (structure)"
+        "title": "title-not-meaningful (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.2"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/c4a8a4/1844d7bce889d85a80b620468baa804eab3ff2c8.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "title-not-meaningful (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.2"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/c4a8a4/85469fd266d3e8706f551dcd65261709311123d0.svg"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "title-not-meaningful (structure)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.2"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -600,11 +1275,80 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/off6ek/0010173c5c52316b06fef820691785ed98483b7d.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/2616e8486562f08449b710b8a5dc9846474af000.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "lang-change-not-valid (structure)"
+        "title": "alt-text-short-text-not-meaningful (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/75ab2815efda6d9422fcf1edc5876fcb5e398a84.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "alt-text-short-text-not-meaningful (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/68e50a217d9f01ccd5bfd4f3ad4227b163165297.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "alt-text-short-text-not-meaningful (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/f3fa0aa13747875284429e759c8e94ac6b3fac8f.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "alt-text-short-text-not-meaningful (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -615,11 +1359,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/off6ek/30c95a1f1592ff0e75bb1f0b5b4e6fa0e6361b83.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/5cdb41b3b9be43fd015bf4692ea295f87cb7e02f.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "lang-change-not-valid (structure)"
+        "title": "alt-text-short-text-not-meaningful (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -630,11 +1380,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/off6ek/a4c3ac2a998eddc2912109f9d41f56574ac194a0.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/954441755d9b745f7fc533a8ccfc895d40e9005d.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "lang-change-not-valid (structure)"
+        "title": "alt-text-short-text-not-meaningful (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -645,26 +1401,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/off6ek/1f5b59313700fb26ac0260e5fb25bd69d805bc82.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/0ab8d652533229aae98191a6a43c2168e1959963.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "lang-change-not-valid (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:untested"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/off6ek/b45615c6247f428fc7d73c0501f91021a57f0e94.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "lang-change-not-valid (structure)"
+        "title": "alt-text-short-text-not-meaningful (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -675,11 +1422,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/off6ek/17622fba62bbebac40601448593be2e4d54dc104.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/ce2c30787caebdf1d6adcd6aedfac8fa8842a9c4.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "lang-change-not-valid (structure)"
+        "title": "alt-text-short-text-not-meaningful (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -690,26 +1443,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/off6ek/d2670ce730c1be7a8876a2837d5f1b1fb6e83ac6.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/4629221e66963f356b68f6e17dacea9a937fe7d3.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "lang-change-not-valid (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:untested"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/off6ek/c3427f0cb02de3150dd1a3ad8e10fa5a61194655.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "lang-change-not-valid (structure)"
+        "title": "alt-text-short-text-not-meaningful (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -720,11 +1464,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/off6ek/642f44db6d5d4b8e64c821b8e2e3422e45a0ff8f.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/9f373a7eca6b3dc1089e76fa275cdb63c7a8d4b6.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "lang-change-not-valid (structure)"
+        "title": "alt-text-short-text-not-meaningful (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -735,176 +1485,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/off6ek/7f994c4d5afcc4d087a26b807e5f3046b3233f04.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/efd997470e600544174476e95116bdac100f368b.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "lang-change-not-valid (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/off6ek/f3dbf1535a816d98a2667463ef9446150ec8b61c.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "lang-change-not-valid (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/off6ek/2661fa687a091cfc7ff617d9e30be6601982e702.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "lang-change-not-valid (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/off6ek/644b02adff16c2c445bbee516f65fed519ea5cca.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "lang-change-not-valid (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/off6ek/5cffdfdf2102e81f9b32a2c517001fb44faf40a5.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "lang-change-not-valid (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/off6ek/74b2f3c358f15142cc220c97153bbc6043beaa87.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "lang-change-not-valid (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/oj04fd/a4cd21db636880a4f6f074307bf8307a07edf51e.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "focus-indicator-missing (keyboard)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/oj04fd/1b7a2ed4290e55f4130c1dc715c4123dff398871.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "focus-indicator-missing (keyboard)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/oj04fd/e64f0e222ab0002455b45f08a887c3226a7b4d71.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "focus-indicator-missing (keyboard)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/oj04fd/8784917764b66a645bc38a751805a2aac2201e21.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "focus-indicator-missing (keyboard)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/oj04fd/76a1528006c193ee0fab9ea6ad41bde8c424189f.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "focus-indicator-missing (keyboard)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/oj04fd/b3fe5c5105b3553e06cbe80a2c95eef5914a2b0d.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "focus-indicator-missing (keyboard)"
+        "title": "alt-text-short-text-not-meaningful (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -915,11 +1506,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/oj04fd/1a1e6674b96c4cbdedc55801679fe0c06c248fac.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/e3fa823fa9ba97ac106cc8d13f2ba7e771cb9c75.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "focus-indicator-missing (keyboard)"
+        "title": "alt-text-short-text-not-meaningful (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -930,11 +1527,59 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/oj04fd/af1ec85ed52818990bc95f50677336f575d05ce1.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/4d04a4946e1f06834c89b91f0a765367f9d0d492.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "focus-indicator-missing (keyboard)"
+        "title": "alt-text-short-text-not-meaningful (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/d5ce8939312a4c283084d0a7fdc7dd4cf6b35d4f.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "alt-text-short-text-not-meaningful (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/8ff1c1f8ce6c58b66365fd70f6828a89527874e3.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "alt-text-short-text-not-meaningful (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -945,11 +1590,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/oj04fd/0a492595c81007ffe1ff2ca2a4a57fc24fe10635.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/a09270ba161c0259b258844551e94c40cdd6b52e.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "focus-indicator-missing (keyboard)"
+        "title": "alt-text-short-text-not-meaningful (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -960,41 +1611,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/36b590/8b142ff253acfebc90e4b93dc78a1137d0527ee9.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/0va7u6/6e6a506352542f40f4fe08a805ce736e89b46b06.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "form-error-required-unclear + instructions-not-included (forms)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/36b590/48484f481acd7c829c52465c4032d5e8d062ef67.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "form-error-required-unclear + instructions-not-included (forms)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/36b590/44dba9cf9b4dc698bbdfe549e6bb83c571586609.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "form-error-required-unclear + instructions-not-included (forms)"
+        "title": "image-of-text (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.4.5"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -1005,11 +1632,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/36b590/ce0199d19d1e2e8f200ddde12c082c8ec0a24880.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/0va7u6/48f02a3a361b09761b70fe85571ce0fe55b62e18.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "form-error-required-unclear + instructions-not-included (forms)"
+        "title": "image-of-text (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.4.5"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -1020,26 +1653,38 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/36b590/4977fdb6035d541f22c46e26dcdcf5f2b00ae370.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/0va7u6/e5e36c1efa1c7d7f350ee94c220b58944a62c1d2.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "form-error-required-unclear + instructions-not-included (forms)"
+        "title": "image-of-text (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.4.5"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
-        "outcome": "earl:failed"
+        "outcome": "earl:passed"
       }
     },
     {
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/36b590/8f73a59ba8f4702af17edc87d44273afae859f42.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/0va7u6/372b4acc620b897e8fa5e22607121407399f5e07.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "form-error-required-unclear + instructions-not-included (forms)"
+        "title": "image-of-text (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.4.5"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -1050,71 +1695,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/36b590/fa48ce6a3b0c47beb6f92cfa601759f27d893086.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/0va7u6/28b2597a08ca7a6fd85a273b484b599c04a03f1a.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "form-error-required-unclear + instructions-not-included (forms)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/36b590/78deab9c61239f5d696f3b287affdac3aeed1955.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "form-error-required-unclear + instructions-not-included (forms)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/36b590/55e841b9dc05acb848210f0f9b7a958cee658f5b.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "form-error-required-unclear + instructions-not-included (forms)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/cc0f0a/0ed8074a5bee7052a1a28f9fd718b7d35a645cfd.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "label-visible-not-descriptive (forms)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/cc0f0a/94d3003abb03281265a5423caf07d3dc4cc2a190.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "label-visible-not-descriptive (forms)"
+        "title": "image-of-text (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.4.5"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -1125,11 +1716,59 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/cc0f0a/ec284879633645f114751de5cf1d14978030ab77.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/0va7u6/74e69f0f02fd050e3b3bde3d1e81ca7fbc04670a.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "label-visible-not-descriptive (forms)"
+        "title": "image-of-text (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.4.5"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/0va7u6/00a1b04016513662a754e5114d0efbbd98ba58c8.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "image-of-text (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.4.5"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/0va7u6/671c8b76af94397191ae1ed8b6fdeacb3658509b.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "image-of-text (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.4.5"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -1140,11 +1779,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/cc0f0a/80c83d04972e8a4a4127ced657b3d724435d06b0.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/0va7u6/80ff3d6a9f2de0b2b9f179a13d91d47ce8c9ab26.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "label-visible-not-descriptive (forms)"
+        "title": "image-of-text (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.4.5"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -1155,101 +1800,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/cc0f0a/bc1e857a7e34736ddf5451ef48362bbf507da4f6.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/0va7u6/45041ac39ebf8f9d8ff642ea0bb56e947f0ac76e.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "label-visible-not-descriptive (forms)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/cc0f0a/90d77d3e5b2fdc19bce47f9f9362283861d3903b.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "label-visible-not-descriptive (forms)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/cc0f0a/2a3113551e8b6285b44b1495356235222b75542f.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "label-visible-not-descriptive (forms)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/cc0f0a/88a1646138c707f4d488ac76215fde0fd398bb94.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "label-visible-not-descriptive (forms)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/cc0f0a/d4d6cdf8ad02ff5770cba8490a592f254f15a620.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "label-visible-not-descriptive (forms)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/cc0f0a/4ac46ad6306dbd23511a9a8f1b52cb7c2baa7829.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "label-visible-not-descriptive (forms)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/cc0f0a/39bc0aa3e75812c1e3b8bae1bc1ae88730494409.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "label-visible-not-descriptive (forms)"
+        "title": "image-of-text (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.4.5"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -1260,11 +1821,59 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/cc0f0a/157786f62350f04201614e3b4b6b741a1ec41b8b.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/0va7u6/bf023941401d04f61ce739ee10fcc15f87d298a7.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "label-visible-not-descriptive (forms)"
+        "title": "image-of-text (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.4.5"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/0va7u6/e1d4ed7556dabfcfde47aaf4cd0861e0fdf585d9.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "image-of-text (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.4.5"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/0va7u6/68dc6c98d514826f67cf700d1a5c7d449061b9ee.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "image-of-text (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.4.5"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -1275,11 +1884,269 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/cc0f0a/071ed0f3870c0c3d4c0dec0a8d0f629b8dd684f1.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/0va7u6/5b1f5cf021116b02ca9a1846b18fa3e48860646b.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "label-visible-not-descriptive (forms)"
+        "title": "image-of-text (Images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.4.5"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e88epe/9554e68de401c2912fd4895b6c062cd5ec2734b2.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "alt-text-missing + semantic-hidden (images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e88epe/2a5ee04e97e798e6e08c3afb92f3b44d49ac13fa.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "alt-text-missing + semantic-hidden (images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e88epe/57982b4d5dad90f3f2c06d5e0233694c46842bd0.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "alt-text-missing + semantic-hidden (images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e88epe/736b18e695a44e19b8acc1a858262b4b9309c2fc.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "alt-text-missing + semantic-hidden (images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e88epe/59911c86fd770ba2c98dc1c669f9003c2c7e71ac.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "alt-text-missing + semantic-hidden (images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e88epe/e5b8fa7ab66409e7b52b335a8b6aebe11fd78635.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "alt-text-missing + semantic-hidden (images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e88epe/5d0c52f3b06b60f712efaa08eb6947f18494c241.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "alt-text-missing + semantic-hidden (images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e88epe/9ff50232e74195770418bcfb23c1508dfcef639a.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "alt-text-missing + semantic-hidden (images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e88epe/0d0061ffdf406f0d9b21aaa00f5d557e4137e0b2.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "alt-text-missing + semantic-hidden (images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e88epe/6d108d00cc7a54f66547f02d7e7606342b11f801.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "alt-text-missing + semantic-hidden (images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e88epe/92935fbf073935292967951af70c2e699357fac2.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "alt-text-missing + semantic-hidden (images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e88epe/f9c84eeeb2ab4f07802f2739786dfda1d8f974a0.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "alt-text-missing + semantic-hidden (images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -1290,11 +2157,164 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/cc0f0a/43548ef28fac9a7964a4a1d964df4aff6113053e.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e88epe/410778b7d0c30044bfafed29789220f4b7ca98f1.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "label-visible-not-descriptive (forms)"
+        "title": "alt-text-missing + semantic-hidden (images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e88epe/921e2bffbdced6b00801da02f7dc674b9ee6203c.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "alt-text-missing + semantic-hidden (images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e88epe/41452bcdbcb440d3f741c74fcc885a93c68d63ce.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "alt-text-missing + semantic-hidden (images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e88epe/918a4aecd343530c1d3d2160b4015a74a5ad55f7.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "alt-text-missing + semantic-hidden (images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e88epe/5b2b8357b761ba5ad2753c322f3120442b0b8ab8.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "alt-text-missing + semantic-hidden (images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e88epe/5e61a02512d3de1b3b0c3f32b4f6c30634108e29.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "alt-text-missing + semantic-hidden (images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e88epe/a09270ba161c0259b258844551e94c40cdd6b52e.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "alt-text-missing + semantic-hidden (images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e88epe/8ff1c1f8ce6c58b66365fd70f6828a89527874e3.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "alt-text-missing + semantic-hidden (images)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 1.1.1"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -1305,11 +2325,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/cc0f0a/2679bd4d437e0a5a49d279a1c39b06d6d9ab427f.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/oj04fd/abc8e8ea2752ecd3cd92f18b457bde3738f5d23f.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "label-visible-not-descriptive (forms)"
+        "title": "focus-indicator-missing (keyboard)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.7"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -1320,11 +2346,80 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/b49b2e/680f45d618bff74142de42e6ed6c7ee2e33b0f6c.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/oj04fd/5ac8e9939b5aff9f07e5c2e3b295dd15d814ae30.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "heading-not-descriptive (structure)"
+        "title": "focus-indicator-missing (keyboard)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.7"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/oj04fd/4efb68e27fc5c5bec5349331d80f58879254e94e.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "focus-indicator-missing (keyboard)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.7"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/oj04fd/dd9628d86628e285fe99ce98efdacbe441c20ca5.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "focus-indicator-missing (keyboard)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.7"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/oj04fd/70adae819928e7235dc91d7d0b4a6b195a08ad5a.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "focus-indicator-missing (keyboard)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.7"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -1335,641 +2430,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/b49b2e/30ea3b43777437566f35f235de3fc94a16c87a96.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/oj04fd/90789ad82a761b7697418e8cb403db103f0925a2.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "heading-not-descriptive (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/b49b2e/b81884710c18ce810cbed8a926188609aead5786.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "heading-not-descriptive (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/b49b2e/439e4f0379f4b0920aa858fadc663681ec15536b.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "heading-not-descriptive (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/b49b2e/d8e383a123d1cfbaeab6ed551f08ac2f7a9494f8.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "heading-not-descriptive (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/b49b2e/aee358f45b40658fcc5c42d12a6df82dbdf94e0c.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "heading-not-descriptive (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/b49b2e/4b060cc7f719b34e7976b45850c9dd2ba47a8a2e.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "heading-not-descriptive (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:untested"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/b49b2e/dce627a3a49f90c4638695e93314b6bad5bf65e2.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "heading-not-descriptive (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/b49b2e/f32765d70e0f730a7a3a859dc8cd396c186bce4a.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "heading-not-descriptive (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/b49b2e/b21c77db7674e58bccfe50adfe6ecd6bb715efd9.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "heading-not-descriptive (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/b49b2e/c3ed1f47a0892ce17a390e0953c715e5ed1ae5db.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "heading-not-descriptive (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/b49b2e/14551f2cbf465d95236ef1417e0e2b5fb82249a6.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "heading-not-descriptive (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/b49b2e/8d5377707b9a7e28b12ae3098174a20cea2c0a7f.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "heading-not-descriptive (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/b49b2e/d0355799c67263c94060ae582c545b19ef063c77.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "heading-not-descriptive (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/b49b2e/b01ff4c1063099482cfb79824f78271adce8d6d7.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "heading-not-descriptive (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/b49b2e/dcad705d7ccbc1b399d74e66263b2f407a45d7b4.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "heading-not-descriptive (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/b49b2e/e410079a28dd1a4cf4c823218b2ee058ee9dff86.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "heading-not-descriptive (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:untested"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/ucwvc8/111853e2172adbc1f4bef4f1636cb1dc42643cda.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "lang-not-accurate (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/ucwvc8/2514ee5856ecb23a137d122649d79164e62c6443.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "lang-not-accurate (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/ucwvc8/17f1ce2cc72cd5cface85ec43150bf35d123cc15.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "lang-not-accurate (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/ucwvc8/3ec51d796a02fa3877218ec8b39ee90ff05aea1c.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "lang-not-accurate (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/ucwvc8/88ab73b8c00bbd3b53301b007ddc5a9657848439.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "lang-not-accurate (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/ucwvc8/7be069572fd0b44a568ac14dd5d9fdaf79b2e0b0.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "lang-not-accurate (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/ucwvc8/4ba800ab0fda6c83b48d9bbecb5042682775ae51.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "lang-not-accurate (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/ucwvc8/d72d005d297d6f12d4662c870c89987ca77a0cee.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "lang-not-accurate (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/ucwvc8/13bb522eb9b96c87a0759a300f376cf0d2c5c07d.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "lang-not-accurate (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/ucwvc8/bc570d37128826b1ad74e5fc7baccaf3ad9e47e9.svg"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "lang-not-accurate (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:untested"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/ucwvc8/74f298cb3ed65f33a2812185da0a43d7c9936f85.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "lang-not-accurate (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/ucwvc8/edda9607422c61d7fedf15ee3627fa138532c1a6.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "lang-not-accurate (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/ucwvc8/e57483df633ffdf9a51197960a6fd43aed2d9881.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "lang-not-accurate (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/ucwvc8/2f7b367cd2275113214c1a6d8c33aec89c6ed994.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "lang-not-accurate (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:untested"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/ucwvc8/9c40e88aea85e182663aa0cae6cadd20b79cfc7a.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "lang-not-accurate (structure)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:untested"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/e88epe/6c3ff41e67b0f85a4e52e5bba278e4e279bea034.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "alt-text-missing + semantic-hidden (images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/e88epe/50aec1c628901752fcfbf956ff8c69b07d07ec7b.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "alt-text-missing + semantic-hidden (images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/e88epe/8910ef2a7c2d5c9ad2280350dceb439f7e3849cf.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "alt-text-missing + semantic-hidden (images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/e88epe/b3d0cb478e276209c5cf3492b3b7d43d016edec4.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "alt-text-missing + semantic-hidden (images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/e88epe/6d71ae8ab8aecc7a08faacde77de09b4bd8dd131.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "alt-text-missing + semantic-hidden (images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/e88epe/fdc91cd65be10f2ff361158ce5f2312c7be38f21.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "alt-text-missing + semantic-hidden (images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/e88epe/90f579fe2b01db999b270d6dfe818cce8c715b65.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "alt-text-missing + semantic-hidden (images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/e88epe/c97ef443ad5d5423ba20802a88bdc8003670727d.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "alt-text-missing + semantic-hidden (images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/e88epe/e147f8068869c19af0f53ec109711d587ab3e1f0.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "alt-text-missing + semantic-hidden (images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/e88epe/fbe64b24bd2d6abbc60ca11c10d72e06202a2f19.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "alt-text-missing + semantic-hidden (images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/e88epe/700fb4c77a30aa7b74e2cf1345db10d7016bf056.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "alt-text-missing + semantic-hidden (images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/e88epe/676e3afca2d1f65d7f364a8b3631bdbc2492dbc2.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "alt-text-missing + semantic-hidden (images)"
+        "title": "focus-indicator-missing (keyboard)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.7"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -1980,11 +2451,17 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/e88epe/3cb6585fa0024becb2c0738f723073a1283ddd88.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/oj04fd/52be6331dc0978990a8b806a9a4a84bf738a43e1.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "alt-text-missing + semantic-hidden (images)"
+        "title": "focus-indicator-missing (keyboard)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.7"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
@@ -1995,105 +2472,42 @@
       "@type": "Assertion",
       "subject": {
         "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/e88epe/005d1156a023d5a7de84322508e186b11eb0d2bd.html"
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/oj04fd/b12f1f45eef29c30197ca3bda79d793cd90eeadd.html"
       },
       "test": {
         "@type": "TestCase",
-        "title": "alt-text-missing + semantic-hidden (images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/e88epe/262a7b5bab0fcb38fe86ec20206b2b16256b365e.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "alt-text-missing + semantic-hidden (images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/e88epe/357d6afecdc6360f342bd3307e4ee71bb9d03397.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "alt-text-missing + semantic-hidden (images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/e88epe/a4090eb483a51ef90dc9ae9f9bdf05f068e5690a.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "alt-text-missing + semantic-hidden (images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/e88epe/d484d9cb905b9ad2e73b69f687af28eadc52e340.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "alt-text-missing + semantic-hidden (images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/e88epe/c934e3dcba80f4e29531bab6621e29cb8a774573.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "alt-text-missing + semantic-hidden (images)"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "subject": {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/e88epe/99e3d033665b0a89ed706113576df48b41f0ac5a.html"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "alt-text-missing + semantic-hidden (images)"
+        "title": "focus-indicator-missing (keyboard)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.7"
+          }
+        ]
       },
       "result": {
         "@type": "TestResult",
         "outcome": "earl:inapplicable"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/oj04fd/ef877d377b4814d96d90274011e7304e14c59245.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "focus-indicator-missing (keyboard)",
+        "isPartOf": [
+          {
+            "@type": "TestRequirement",
+            "title": "WCAG2, SC 2.4.7"
+          }
+        ]
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
       }
     }
   ]
