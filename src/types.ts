@@ -42,7 +42,7 @@ export type Assertion = {
     "@type": string[],
     source: string
   },
-  assertedBy: string,
+  assertedBy?: string,
   result: {
     "@type": "TestResult",
     outcome: string

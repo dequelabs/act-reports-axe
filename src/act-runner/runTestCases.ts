@@ -16,7 +16,7 @@ export const runTestCases = async (
 
   for (let testcases of tests) {
     const { ruleName, ruleId } = testcases[0];
-    console.log(`Testing: ${ruleName} (${ruleId})`);
+    console.log(`\nTesting: ${ruleName} (${ruleId})`);
     process.stdout.write("  ");
 
     const untestedCases: TestCase[] = [];
