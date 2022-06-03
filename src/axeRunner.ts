@@ -3,10 +3,11 @@ import * as path from 'path';
 import { axeRunTestCase } from './axeRunTestCase';
 import { runTestsInPage } from './act-runner/runTestsInPage';
 import { Config } from './types';
+import { testCaseJson } from '../package.json';
 
 const config: Config = {
   outFile: './reports/axe-core.json',
-  testCaseJson: 'https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases.json'
+  testCaseJson
 }
 
 async function main() {
