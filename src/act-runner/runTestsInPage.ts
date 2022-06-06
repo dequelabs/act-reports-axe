@@ -31,8 +31,8 @@ async function startPuppeteer(): Promise<{page: Page, browser: Browser}> {
     }
     try {
       let body = (await Axios.get<string>(url)).data;
-      if (body.match(/content="\s*0+(;.*"|")/)) {
-        body = body.replace(/content=".*"/g, 'content=""');
+      if (body.match(/content="\s*0+(;.*?"|")/)) {
+        body = body.replace(/content=".*?"/g, 'content=""');
       }
       request.respond({ body });
     } catch {
