@@ -7,7 +7,7 @@ describe(`group-testcases`, () => {
 
   test(`get all testcases that are grouped`, () => {
     expect(allResults).toBeDefined();
-    expect(allResults.length).toBeGreaterThan(1);
+    expect(allResults.length).toBe(2);
   });
 
   test.each(allResults)("has only testcases of the rule: %p", ruleTestcases => {
@@ -18,7 +18,7 @@ describe(`group-testcases`, () => {
   const [ruleIdResults] = groupedTestCases(testcases, "73f2c2");
   test(`get testcases that are grouped by specified ruleId - 73f2c2 (Autocomplete valid)`, () => {
     expect(ruleIdResults).toBeDefined();
-    expect(ruleIdResults.length).toBeGreaterThan(1);
+    expect(ruleIdResults.length).toBe(3);
   });
 
   test.each(ruleIdResults)(

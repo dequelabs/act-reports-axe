@@ -8,9 +8,7 @@ import { EarlReport } from './types';
 import axeReporterEarl, { earlUntested } from "./axe-reporter-earl/axeReporterEarl";
 import {
   rulesAxeOptions,
-  ignoreRulesIds,
   inapplicableFileExtensions,
-  manualRulesMapping
 } from "./config";
 import { Page } from "puppeteer";
 import { RawResult, TestCase, ToolRunner } from "./types";
@@ -29,12 +27,8 @@ export const axeRunTestCase: ToolRunner = async (
   const extn = getFileExtension(url);
   const env = { url, version: axe.version };
 
-  if (ignoreRulesIds.includes(ruleId) || !tags.length) {
-    return earlUntested(env);
-  }
-
-  const axeRulesIds = getAxeRuleIdsToRun(tags, ruleId);
-  if (!axeRulesIds.length) {
+  const axeRuleIds = getAxeRuleIdsToRun(ruleId);
+  if (!axeRuleIds.length) {
     return earlUntested(env);
   }
 
@@ -62,17 +56,14 @@ export const axeRunTestCase: ToolRunner = async (
       let raw: RawResult[]
       // check for inapplicable file extensions
       if (inapplicableFileExtensions.includes(extn)) {
-        raw = axeRulesIds.map(ruleId => {
+        raw = axeRuleIds.map(ruleId => {
           return { result: `inapplicable`, id: ruleId, tags: [] };
         });
       } else {
         // Setup axe-puppeteer with the correct SC
         const options: RunOptions = {
           reporter: "raw",
-          runOnly: {
-            type: "rule",
-            values: axeRulesIds
-          },
+          runOnly: axeRuleIds,
           ...rulesAxeOptions[ruleId]
         };
         const axeRunner = new AxePuppeteer(page, axeSource)
@@ -105,11 +96,9 @@ function getFileExtension(str: string) {
 /**
  * Get axe rules to run
  */
-function getAxeRuleIdsToRun(tags: string[], ruleId: string): string[] {
-  const axeRules = axe.getRules(tags);
-  if (axeRules.length > 0) {
-    return axeRules.map(axeRule => axeRule.ruleId);
-  }
-
-  return manualRulesMapping[ruleId] || [];
+function getAxeRuleIdsToRun(actRuleId: string): string[] {
+  let axeRules = axe.getRules().filter(rule => {
+    return rule.actIds?.includes(actRuleId)
+  })
+  return axeRules.map(axeRule => axeRule.ruleId);
 }
