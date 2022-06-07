@@ -3,7 +3,7 @@ import puppeteer, { Page } from "puppeteer";
 import { TestCase } from '../types';
 
 const testCaseJson = readFileSync(__dirname + "/data/testcases.json", 'utf8')
-const testCases = JSON.parse(testCaseJson).testcases as TestCase[];
+export const testCases = JSON.parse(testCaseJson).testcases as TestCase[];
 
 export const setup = async (): Promise<{
   page: Page,
