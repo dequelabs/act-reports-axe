@@ -1,0 +1,17 @@
+name: Axe data update
+on:
+  schedule:
+    # Run daily, 5:00 UTC - an hour before the WAI site checks for updates
+    - cron: '0 5 * * *'
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v2
+      - uses: c-hive/gha-yarn-cache@v2
+      ## Make sure we have the latest version of axe-core
+      - run: yarn add axe-core@next
+      - run: yarn cleanup:core
+      - run: yarn report
