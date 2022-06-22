@@ -9,6 +9,7 @@
     "report:map": "npm run report:map:core && npm run report:map:pro",
     "report:map:core": "node ./node_modules/act-tools/dist/cli/map-implementation.js --name \"Axe-core\" --vendor \"Deque Systems\" --jsonReport \"./reports/axe-core.json\" --output \"./reports/axe-core-mapping.json\" --testCaseJson \"$npm_package_testCaseJson\"",
     "report:map:pro": "node ./node_modules/act-tools/dist/cli/map-implementation.js --name \"Axe DevTools Pro\" --vendor \"Deque Systems\" --jsonReport \"./reports/axe-devtools-combined.json\" --output \"./reports/axe-devtools-mapping.json\" --testCaseJson \"$npm_package_testCaseJson\"",
+    "cleanup:core": "rm ./reports/axe-core.json",
     "test": "jest",
     "develop": "jest --watch"
   },
