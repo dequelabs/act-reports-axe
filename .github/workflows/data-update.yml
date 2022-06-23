@@ -20,4 +20,5 @@ jobs:
         with:
           github-token: ${{ secrets.GH_ACCESS_TOKEN }}
           push-branch: main
+          files: reports/.
           commit-message: 'Daily update of axe ACT reports'
