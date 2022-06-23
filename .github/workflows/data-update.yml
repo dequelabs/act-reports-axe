@@ -1,5 +1,6 @@
 name: Axe data update
 on:
+  workflow_dispatch:
   schedule:
     # Run daily, 5:00 UTC - an hour before the WAI site checks for updates
     - cron: '0 5 * * *'
