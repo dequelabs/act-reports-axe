@@ -1,5 +1,6 @@
 name: Axe data update
 on:
+  workflow_dispatch:
   schedule:
     # Run daily, 5:00 UTC - an hour before the WAI site checks for updates
     - cron: '0 5 * * *'
@@ -20,4 +21,5 @@ jobs:
         with:
           github-token: ${{ secrets.GH_ACCESS_TOKEN }}
           push-branch: main
+          files: reports/.
           commit-message: 'Daily update of axe ACT reports'
