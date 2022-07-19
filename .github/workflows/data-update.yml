@@ -16,10 +16,11 @@ jobs:
       - run: yarn add axe-core@next
       - run: yarn cleanup:core
       - run: yarn report
+      - name: Git configure
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
       - run: git add reports/.
-      - name: push
-        uses: github-actions-x/commit@v2.9
-        with:
-          github-token: ${{ secrets.GH_ACCESS_TOKEN }}
-          push-branch: main
-          commit-message: 'Daily update of axe ACT reports'
+      # Commit if there's anything staged
+      - run: git diff-index --quiet HEAD || git commit -m "Daily update of axe ACT reports"
+      - run: git push
