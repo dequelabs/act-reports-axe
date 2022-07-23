@@ -14524,9 +14524,9 @@
         "reported": []
       },
       "coverage": {
-        "covered": 1,
+        "covered": 2,
         "untested": 0,
-        "cantTell": 5,
+        "cantTell": 4,
         "testCaseTotal": 6
       },
       "testCaseResults": [
@@ -14600,7 +14600,7 @@
             {
               "procedureName": "video-caption",
               "outcomes": [
-                "cantTell"
+                "inapplicable"
               ]
             }
           ]
