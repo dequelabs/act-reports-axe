@@ -5911,13 +5911,16 @@
       "ruleName": "ARIA state or property has valid value",
       "ruleApproved": false,
       "procedureNames": [
+        "aria-valid-attr-value",
         "aria-required-attr"
       ],
       "consistency": null,
       "accessibilityRequirements": {
-        "correct": true,
+        "correct": false,
         "expected": [],
-        "reported": []
+        "reported": [
+          "WCAG2:name-role-value"
+        ]
       },
       "coverage": {
         "covered": 1,
@@ -5934,6 +5937,12 @@
           "expected": "passed",
           "procedureResults": [
             {
+              "procedureName": "aria-valid-attr-value",
+              "outcomes": [
+                "passed"
+              ]
+            },
+            {
               "procedureName": "aria-required-attr",
               "outcomes": [
                 "untested"
@@ -5948,6 +5957,12 @@
           "testCaseApproved": false,
           "expected": "passed",
           "procedureResults": [
+            {
+              "procedureName": "aria-valid-attr-value",
+              "outcomes": [
+                "passed"
+              ]
+            },
             {
               "procedureName": "aria-required-attr",
               "outcomes": [
@@ -5964,6 +5979,12 @@
           "expected": "passed",
           "procedureResults": [
             {
+              "procedureName": "aria-valid-attr-value",
+              "outcomes": [
+                "passed"
+              ]
+            },
+            {
               "procedureName": "aria-required-attr",
               "outcomes": [
                 "untested"
@@ -5978,6 +5999,12 @@
           "testCaseApproved": false,
           "expected": "passed",
           "procedureResults": [
+            {
+              "procedureName": "aria-valid-attr-value",
+              "outcomes": [
+                "passed"
+              ]
+            },
             {
               "procedureName": "aria-required-attr",
               "outcomes": [
@@ -5994,6 +6021,12 @@
           "expected": "passed",
           "procedureResults": [
             {
+              "procedureName": "aria-valid-attr-value",
+              "outcomes": [
+                "passed"
+              ]
+            },
+            {
               "procedureName": "aria-required-attr",
               "outcomes": [
                 "untested"
@@ -6008,6 +6041,12 @@
           "testCaseApproved": false,
           "expected": "passed",
           "procedureResults": [
+            {
+              "procedureName": "aria-valid-attr-value",
+              "outcomes": [
+                "passed"
+              ]
+            },
             {
               "procedureName": "aria-required-attr",
               "outcomes": [
@@ -6024,6 +6063,12 @@
           "expected": "passed",
           "procedureResults": [
             {
+              "procedureName": "aria-valid-attr-value",
+              "outcomes": [
+                "passed"
+              ]
+            },
+            {
               "procedureName": "aria-required-attr",
               "outcomes": [
                 "untested"
@@ -6038,6 +6083,12 @@
           "testCaseApproved": false,
           "expected": "passed",
           "procedureResults": [
+            {
+              "procedureName": "aria-valid-attr-value",
+              "outcomes": [
+                "passed"
+              ]
+            },
             {
               "procedureName": "aria-required-attr",
               "outcomes": [
@@ -6054,6 +6105,12 @@
           "expected": "passed",
           "procedureResults": [
             {
+              "procedureName": "aria-valid-attr-value",
+              "outcomes": [
+                "passed"
+              ]
+            },
+            {
               "procedureName": "aria-required-attr",
               "outcomes": [
                 "untested"
@@ -6068,6 +6125,12 @@
           "testCaseApproved": false,
           "expected": "passed",
           "procedureResults": [
+            {
+              "procedureName": "aria-valid-attr-value",
+              "outcomes": [
+                "passed"
+              ]
+            },
             {
               "procedureName": "aria-required-attr",
               "outcomes": [
@@ -6084,6 +6147,12 @@
           "expected": "failed",
           "procedureResults": [
             {
+              "procedureName": "aria-valid-attr-value",
+              "outcomes": [
+                "failed"
+              ]
+            },
+            {
               "procedureName": "aria-required-attr",
               "outcomes": [
                 "untested"
@@ -6098,6 +6167,12 @@
           "testCaseApproved": false,
           "expected": "failed",
           "procedureResults": [
+            {
+              "procedureName": "aria-valid-attr-value",
+              "outcomes": [
+                "failed"
+              ]
+            },
             {
               "procedureName": "aria-required-attr",
               "outcomes": [
@@ -6114,6 +6189,12 @@
           "expected": "failed",
           "procedureResults": [
             {
+              "procedureName": "aria-valid-attr-value",
+              "outcomes": [
+                "failed"
+              ]
+            },
+            {
               "procedureName": "aria-required-attr",
               "outcomes": [
                 "untested"
@@ -6128,6 +6209,12 @@
           "testCaseApproved": false,
           "expected": "failed",
           "procedureResults": [
+            {
+              "procedureName": "aria-valid-attr-value",
+              "outcomes": [
+                "passed"
+              ]
+            },
             {
               "procedureName": "aria-required-attr",
               "outcomes": [
@@ -6144,6 +6231,12 @@
           "expected": "failed",
           "procedureResults": [
             {
+              "procedureName": "aria-valid-attr-value",
+              "outcomes": [
+                "failed"
+              ]
+            },
+            {
               "procedureName": "aria-required-attr",
               "outcomes": [
                 "untested"
@@ -6158,6 +6251,12 @@
           "testCaseApproved": false,
           "expected": "failed",
           "procedureResults": [
+            {
+              "procedureName": "aria-valid-attr-value",
+              "outcomes": [
+                "failed"
+              ]
+            },
             {
               "procedureName": "aria-required-attr",
               "outcomes": [
@@ -6174,6 +6273,12 @@
           "expected": "failed",
           "procedureResults": [
             {
+              "procedureName": "aria-valid-attr-value",
+              "outcomes": [
+                "failed"
+              ]
+            },
+            {
               "procedureName": "aria-required-attr",
               "outcomes": [
                 "untested"
@@ -6188,6 +6293,12 @@
           "testCaseApproved": false,
           "expected": "failed",
           "procedureResults": [
+            {
+              "procedureName": "aria-valid-attr-value",
+              "outcomes": [
+                "failed"
+              ]
+            },
             {
               "procedureName": "aria-required-attr",
               "outcomes": [
@@ -6204,6 +6315,12 @@
           "expected": "failed",
           "procedureResults": [
             {
+              "procedureName": "aria-valid-attr-value",
+              "outcomes": [
+                "failed"
+              ]
+            },
+            {
               "procedureName": "aria-required-attr",
               "outcomes": [
                 "untested"
@@ -6218,6 +6335,12 @@
           "testCaseApproved": false,
           "expected": "failed",
           "procedureResults": [
+            {
+              "procedureName": "aria-valid-attr-value",
+              "outcomes": [
+                "failed"
+              ]
+            },
             {
               "procedureName": "aria-required-attr",
               "outcomes": [
@@ -6234,6 +6357,12 @@
           "expected": "inapplicable",
           "procedureResults": [
             {
+              "procedureName": "aria-valid-attr-value",
+              "outcomes": [
+                "inapplicable"
+              ]
+            },
+            {
               "procedureName": "aria-required-attr",
               "outcomes": [
                 "inapplicable"
@@ -6248,6 +6377,12 @@
           "testCaseApproved": false,
           "expected": "inapplicable",
           "procedureResults": [
+            {
+              "procedureName": "aria-valid-attr-value",
+              "outcomes": [
+                "inapplicable"
+              ]
+            },
             {
               "procedureName": "aria-required-attr",
               "outcomes": [
@@ -6264,6 +6399,12 @@
           "expected": "inapplicable",
           "procedureResults": [
             {
+              "procedureName": "aria-valid-attr-value",
+              "outcomes": [
+                "failed"
+              ]
+            },
+            {
               "procedureName": "aria-required-attr",
               "outcomes": [
                 "untested"
@@ -6278,6 +6419,12 @@
           "testCaseApproved": false,
           "expected": "inapplicable",
           "procedureResults": [
+            {
+              "procedureName": "aria-valid-attr-value",
+              "outcomes": [
+                "inapplicable"
+              ]
+            },
             {
               "procedureName": "aria-required-attr",
               "outcomes": [
