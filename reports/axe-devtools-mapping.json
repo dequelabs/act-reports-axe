@@ -11,9 +11,9 @@
   },
   "proposedRules": {
     "complete": 13,
-    "partial": 13,
+    "partial": 12,
     "minimal": 7,
-    "inconsistent": 20,
+    "inconsistent": 21,
     "untested": 21
   },
   "actRuleMapping": [
@@ -6806,18 +6806,16 @@
       ],
       "consistency": null,
       "accessibilityRequirements": {
-        "correct": true,
+        "correct": false,
         "expected": [
           "WCAG2:audio-control"
         ],
-        "reported": [
-          "WCAG2:audio-control"
-        ]
+        "reported": []
       },
       "coverage": {
-        "covered": 6,
+        "covered": 4,
         "untested": 0,
-        "cantTell": 0,
+        "cantTell": 4,
         "testCaseTotal": 8
       },
       "testCaseResults": [
@@ -6861,7 +6859,7 @@
             {
               "procedureName": "no-autoplay-audio",
               "outcomes": [
-                "failed"
+                "cantTell"
               ]
             }
           ]
@@ -6876,7 +6874,7 @@
             {
               "procedureName": "no-autoplay-audio",
               "outcomes": [
-                "failed"
+                "cantTell"
               ]
             }
           ]
@@ -6891,7 +6889,7 @@
             {
               "procedureName": "no-autoplay-audio",
               "outcomes": [
-                "failed"
+                "cantTell"
               ]
             }
           ]
@@ -6921,7 +6919,7 @@
             {
               "procedureName": "no-autoplay-audio",
               "outcomes": [
-                "failed"
+                "cantTell"
               ]
             }
           ]
@@ -7283,16 +7281,14 @@
       ],
       "consistency": null,
       "accessibilityRequirements": {
-        "correct": false,
+        "correct": true,
         "expected": [],
-        "reported": [
-          "WCAG2:audio-control"
-        ]
+        "reported": []
       },
       "coverage": {
-        "covered": 4,
+        "covered": 3,
         "untested": 1,
-        "cantTell": 0,
+        "cantTell": 2,
         "testCaseTotal": 7
       },
       "testCaseResults": [
@@ -7351,7 +7347,7 @@
             {
               "procedureName": "no-autoplay-audio",
               "outcomes": [
-                "failed"
+                "cantTell"
               ]
             }
           ]
@@ -7381,7 +7377,7 @@
             {
               "procedureName": "no-autoplay-audio",
               "outcomes": [
-                "failed"
+                "cantTell"
               ]
             }
           ]
@@ -7410,18 +7406,16 @@
       "procedureNames": [
         "no-autoplay-audio"
       ],
-      "consistency": "partial",
+      "consistency": null,
       "accessibilityRequirements": {
-        "correct": false,
+        "correct": true,
         "expected": [],
-        "reported": [
-          "WCAG2:audio-control"
-        ]
+        "reported": []
       },
       "coverage": {
-        "covered": 5,
+        "covered": 3,
         "untested": 6,
-        "cantTell": 0,
+        "cantTell": 2,
         "testCaseTotal": 11
       },
       "testCaseResults": [
@@ -7480,7 +7474,7 @@
             {
               "procedureName": "no-autoplay-audio",
               "outcomes": [
-                "failed"
+                "cantTell"
               ]
             }
           ]
@@ -7495,7 +7489,7 @@
             {
               "procedureName": "no-autoplay-audio",
               "outcomes": [
-                "failed"
+                "cantTell"
               ]
             }
           ]
