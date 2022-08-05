@@ -10,10 +10,10 @@
     "untested": 0
   },
   "proposedRules": {
-    "complete": 10,
+    "complete": 11,
     "partial": 9,
     "minimal": 7,
-    "inconsistent": 19,
+    "inconsistent": 18,
     "untested": 29
   },
   "actRuleMapping": [
@@ -11798,22 +11798,25 @@
       "ruleName": "Meta element has no refresh delay",
       "ruleApproved": false,
       "procedureNames": [
-        "meta-refresh",
-        "meta-refresh-no-exceptions"
+        "meta-refresh"
       ],
-      "consistency": null,
+      "consistency": "complete",
       "accessibilityRequirements": {
-        "correct": false,
+        "correct": true,
         "expected": [
           "WCAG2:timing-adjustable",
           "WCAG2:interruptions",
           "WCAG2:change-on-request"
         ],
-        "reported": []
+        "reported": [
+          "WCAG2:timing-adjustable",
+          "WCAG2:interruptions",
+          "WCAG2:change-on-request"
+        ]
       },
       "coverage": {
-        "covered": 1,
-        "untested": 14,
+        "covered": 15,
+        "untested": 0,
         "cantTell": 0,
         "testCaseTotal": 15
       },
@@ -11830,12 +11833,6 @@
               "outcomes": [
                 "passed"
               ]
-            },
-            {
-              "procedureName": "meta-refresh-no-exceptions",
-              "outcomes": [
-                "untested"
-              ]
             }
           ]
         },
@@ -11848,13 +11845,6 @@
           "procedureResults": [
             {
               "procedureName": "meta-refresh",
-              "outcomes": [
-                "passed",
-                "passed"
-              ]
-            },
-            {
-              "procedureName": "meta-refresh-no-exceptions",
               "outcomes": [
                 "passed",
                 "passed"
@@ -11874,12 +11864,6 @@
               "outcomes": [
                 "passed"
               ]
-            },
-            {
-              "procedureName": "meta-refresh-no-exceptions",
-              "outcomes": [
-                "untested"
-              ]
             }
           ]
         },
@@ -11893,13 +11877,7 @@
             {
               "procedureName": "meta-refresh",
               "outcomes": [
-                "untested"
-              ]
-            },
-            {
-              "procedureName": "meta-refresh-no-exceptions",
-              "outcomes": [
-                "untested"
+                "failed"
               ]
             }
           ]
@@ -11914,13 +11892,7 @@
             {
               "procedureName": "meta-refresh",
               "outcomes": [
-                "untested"
-              ]
-            },
-            {
-              "procedureName": "meta-refresh-no-exceptions",
-              "outcomes": [
-                "untested"
+                "failed"
               ]
             }
           ]
@@ -11935,13 +11907,8 @@
             {
               "procedureName": "meta-refresh",
               "outcomes": [
-                "untested"
-              ]
-            },
-            {
-              "procedureName": "meta-refresh-no-exceptions",
-              "outcomes": [
-                "untested"
+                "passed",
+                "failed"
               ]
             }
           ]
@@ -11956,13 +11923,7 @@
             {
               "procedureName": "meta-refresh",
               "outcomes": [
-                "untested"
-              ]
-            },
-            {
-              "procedureName": "meta-refresh-no-exceptions",
-              "outcomes": [
-                "untested"
+                "failed"
               ]
             }
           ]
@@ -11977,13 +11938,7 @@
             {
               "procedureName": "meta-refresh",
               "outcomes": [
-                "untested"
-              ]
-            },
-            {
-              "procedureName": "meta-refresh-no-exceptions",
-              "outcomes": [
-                "untested"
+                "inapplicable"
               ]
             }
           ]
@@ -11998,13 +11953,7 @@
             {
               "procedureName": "meta-refresh",
               "outcomes": [
-                "untested"
-              ]
-            },
-            {
-              "procedureName": "meta-refresh-no-exceptions",
-              "outcomes": [
-                "untested"
+                "inapplicable"
               ]
             }
           ]
@@ -12019,13 +11968,7 @@
             {
               "procedureName": "meta-refresh",
               "outcomes": [
-                "untested"
-              ]
-            },
-            {
-              "procedureName": "meta-refresh-no-exceptions",
-              "outcomes": [
-                "untested"
+                "passed"
               ]
             }
           ]
@@ -12040,13 +11983,7 @@
             {
               "procedureName": "meta-refresh",
               "outcomes": [
-                "untested"
-              ]
-            },
-            {
-              "procedureName": "meta-refresh-no-exceptions",
-              "outcomes": [
-                "untested"
+                "passed"
               ]
             }
           ]
@@ -12061,13 +11998,7 @@
             {
               "procedureName": "meta-refresh",
               "outcomes": [
-                "untested"
-              ]
-            },
-            {
-              "procedureName": "meta-refresh-no-exceptions",
-              "outcomes": [
-                "untested"
+                "passed"
               ]
             }
           ]
@@ -12082,13 +12013,7 @@
             {
               "procedureName": "meta-refresh",
               "outcomes": [
-                "untested"
-              ]
-            },
-            {
-              "procedureName": "meta-refresh-no-exceptions",
-              "outcomes": [
-                "untested"
+                "passed"
               ]
             }
           ]
@@ -12103,13 +12028,7 @@
             {
               "procedureName": "meta-refresh",
               "outcomes": [
-                "untested"
-              ]
-            },
-            {
-              "procedureName": "meta-refresh-no-exceptions",
-              "outcomes": [
-                "untested"
+                "passed"
               ]
             }
           ]
@@ -12124,13 +12043,7 @@
             {
               "procedureName": "meta-refresh",
               "outcomes": [
-                "untested"
-              ]
-            },
-            {
-              "procedureName": "meta-refresh-no-exceptions",
-              "outcomes": [
-                "untested"
+                "passed"
               ]
             }
           ]
