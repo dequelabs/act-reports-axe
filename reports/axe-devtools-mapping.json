@@ -11,9 +11,9 @@
   },
   "proposedRules": {
     "complete": 14,
-    "partial": 12,
+    "partial": 13,
     "minimal": 7,
-    "inconsistent": 20,
+    "inconsistent": 19,
     "untested": 21
   },
   "actRuleMapping": [
@@ -5351,7 +5351,7 @@
       "procedureNames": [
         "aria-required-children"
       ],
-      "consistency": null,
+      "consistency": "partial",
       "accessibilityRequirements": {
         "correct": true,
         "expected": [
@@ -5362,7 +5362,7 @@
         ]
       },
       "coverage": {
-        "covered": 16,
+        "covered": 17,
         "untested": 0,
         "cantTell": 0,
         "testCaseTotal": 19
@@ -5635,7 +5635,7 @@
             {
               "procedureName": "aria-required-children",
               "outcomes": [
-                "failed"
+                "passed"
               ]
             }
           ]
