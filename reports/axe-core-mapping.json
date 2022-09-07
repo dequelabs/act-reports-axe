@@ -3,15 +3,15 @@
   "name": "Axe-core",
   "version": "latest",
   "approvedRules": {
-    "complete": 13,
+    "complete": 14,
     "partial": 3,
     "minimal": 0,
-    "inconsistent": 1,
+    "inconsistent": 0,
     "untested": 0
   },
   "proposedRules": {
-    "complete": 14,
-    "partial": 8,
+    "complete": 13,
+    "partial": 9,
     "minimal": 8,
     "inconsistent": 15,
     "untested": 29
@@ -348,19 +348,22 @@
       "ruleName": "Button has non-empty accessible name",
       "ruleApproved": true,
       "procedureNames": [
-        "input-image-alt"
+        "button-name",
+        "aria-command-name"
       ],
-      "consistency": null,
+      "consistency": "complete",
       "accessibilityRequirements": {
-        "correct": false,
+        "correct": true,
         "expected": [
           "WCAG2:name-role-value"
         ],
-        "reported": []
+        "reported": [
+          "WCAG2:name-role-value"
+        ]
       },
       "coverage": {
-        "covered": 1,
-        "untested": 16,
+        "covered": 17,
+        "untested": 0,
         "cantTell": 0,
         "testCaseTotal": 17
       },
@@ -373,7 +376,13 @@
           "expected": "passed",
           "procedureResults": [
             {
-              "procedureName": "input-image-alt",
+              "procedureName": "button-name",
+              "outcomes": [
+                "passed"
+              ]
+            },
+            {
+              "procedureName": "aria-command-name",
               "outcomes": [
                 "inapplicable"
               ]
@@ -388,9 +397,15 @@
           "expected": "passed",
           "procedureResults": [
             {
-              "procedureName": "input-image-alt",
+              "procedureName": "button-name",
               "outcomes": [
-                "untested"
+                "inapplicable"
+              ]
+            },
+            {
+              "procedureName": "aria-command-name",
+              "outcomes": [
+                "inapplicable"
               ]
             }
           ]
@@ -403,9 +418,15 @@
           "expected": "passed",
           "procedureResults": [
             {
-              "procedureName": "input-image-alt",
+              "procedureName": "button-name",
               "outcomes": [
-                "untested"
+                "passed"
+              ]
+            },
+            {
+              "procedureName": "aria-command-name",
+              "outcomes": [
+                "inapplicable"
               ]
             }
           ]
@@ -418,9 +439,15 @@
           "expected": "passed",
           "procedureResults": [
             {
-              "procedureName": "input-image-alt",
+              "procedureName": "button-name",
               "outcomes": [
-                "untested"
+                "inapplicable"
+              ]
+            },
+            {
+              "procedureName": "aria-command-name",
+              "outcomes": [
+                "passed"
               ]
             }
           ]
@@ -433,9 +460,15 @@
           "expected": "passed",
           "procedureResults": [
             {
-              "procedureName": "input-image-alt",
+              "procedureName": "button-name",
               "outcomes": [
-                "untested"
+                "passed"
+              ]
+            },
+            {
+              "procedureName": "aria-command-name",
+              "outcomes": [
+                "inapplicable"
               ]
             }
           ]
@@ -448,9 +481,15 @@
           "expected": "passed",
           "procedureResults": [
             {
-              "procedureName": "input-image-alt",
+              "procedureName": "button-name",
               "outcomes": [
-                "untested"
+                "passed"
+              ]
+            },
+            {
+              "procedureName": "aria-command-name",
+              "outcomes": [
+                "inapplicable"
               ]
             }
           ]
@@ -463,9 +502,15 @@
           "expected": "passed",
           "procedureResults": [
             {
-              "procedureName": "input-image-alt",
+              "procedureName": "button-name",
               "outcomes": [
-                "untested"
+                "inapplicable"
+              ]
+            },
+            {
+              "procedureName": "aria-command-name",
+              "outcomes": [
+                "inapplicable"
               ]
             }
           ]
@@ -478,9 +523,15 @@
           "expected": "failed",
           "procedureResults": [
             {
-              "procedureName": "input-image-alt",
+              "procedureName": "button-name",
               "outcomes": [
-                "untested"
+                "failed"
+              ]
+            },
+            {
+              "procedureName": "aria-command-name",
+              "outcomes": [
+                "inapplicable"
               ]
             }
           ]
@@ -493,9 +544,15 @@
           "expected": "failed",
           "procedureResults": [
             {
-              "procedureName": "input-image-alt",
+              "procedureName": "button-name",
               "outcomes": [
-                "untested"
+                "failed"
+              ]
+            },
+            {
+              "procedureName": "aria-command-name",
+              "outcomes": [
+                "inapplicable"
               ]
             }
           ]
@@ -508,9 +565,15 @@
           "expected": "failed",
           "procedureResults": [
             {
-              "procedureName": "input-image-alt",
+              "procedureName": "button-name",
               "outcomes": [
-                "untested"
+                "inapplicable"
+              ]
+            },
+            {
+              "procedureName": "aria-command-name",
+              "outcomes": [
+                "failed"
               ]
             }
           ]
@@ -523,9 +586,15 @@
           "expected": "failed",
           "procedureResults": [
             {
-              "procedureName": "input-image-alt",
+              "procedureName": "button-name",
               "outcomes": [
-                "untested"
+                "failed"
+              ]
+            },
+            {
+              "procedureName": "aria-command-name",
+              "outcomes": [
+                "inapplicable"
               ]
             }
           ]
@@ -538,9 +607,15 @@
           "expected": "failed",
           "procedureResults": [
             {
-              "procedureName": "input-image-alt",
+              "procedureName": "button-name",
               "outcomes": [
-                "untested"
+                "failed"
+              ]
+            },
+            {
+              "procedureName": "aria-command-name",
+              "outcomes": [
+                "inapplicable"
               ]
             }
           ]
@@ -553,9 +628,15 @@
           "expected": "inapplicable",
           "procedureResults": [
             {
-              "procedureName": "input-image-alt",
+              "procedureName": "button-name",
               "outcomes": [
-                "untested"
+                "inapplicable"
+              ]
+            },
+            {
+              "procedureName": "aria-command-name",
+              "outcomes": [
+                "inapplicable"
               ]
             }
           ]
@@ -568,9 +649,15 @@
           "expected": "inapplicable",
           "procedureResults": [
             {
-              "procedureName": "input-image-alt",
+              "procedureName": "button-name",
               "outcomes": [
-                "untested"
+                "inapplicable"
+              ]
+            },
+            {
+              "procedureName": "aria-command-name",
+              "outcomes": [
+                "inapplicable"
               ]
             }
           ]
@@ -583,9 +670,15 @@
           "expected": "inapplicable",
           "procedureResults": [
             {
-              "procedureName": "input-image-alt",
+              "procedureName": "button-name",
               "outcomes": [
-                "untested"
+                "passed"
+              ]
+            },
+            {
+              "procedureName": "aria-command-name",
+              "outcomes": [
+                "inapplicable"
               ]
             }
           ]
@@ -598,9 +691,15 @@
           "expected": "inapplicable",
           "procedureResults": [
             {
-              "procedureName": "input-image-alt",
+              "procedureName": "button-name",
               "outcomes": [
-                "untested"
+                "inapplicable"
+              ]
+            },
+            {
+              "procedureName": "aria-command-name",
+              "outcomes": [
+                "inapplicable"
               ]
             }
           ]
@@ -613,9 +712,15 @@
           "expected": "inapplicable",
           "procedureResults": [
             {
-              "procedureName": "input-image-alt",
+              "procedureName": "button-name",
               "outcomes": [
-                "untested"
+                "passed"
+              ]
+            },
+            {
+              "procedureName": "aria-command-name",
+              "outcomes": [
+                "inapplicable"
               ]
             }
           ]
@@ -12390,7 +12495,7 @@
       "procedureNames": [
         "object-alt"
       ],
-      "consistency": "complete",
+      "consistency": "partial",
       "accessibilityRequirements": {
         "correct": true,
         "expected": [
@@ -12402,9 +12507,9 @@
       },
       "coverage": {
         "covered": 14,
-        "untested": 0,
+        "untested": 4,
         "cantTell": 0,
-        "testCaseTotal": 14
+        "testCaseTotal": 18
       },
       "testCaseResults": [
         {
@@ -12528,8 +12633,53 @@
           ]
         },
         {
-          "testcaseId": "84c10ba8bc5570e900a60a2e29b319e68fc093da",
+          "testcaseId": "a2525d7f2db0db246df0a702416606c56085a17a",
+          "testCaseName": "Failed Example 5",
+          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/a2525d7f2db0db246df0a702416606c56085a17a.html",
+          "testCaseApproved": false,
+          "expected": "failed",
+          "procedureResults": [
+            {
+              "procedureName": "object-alt",
+              "outcomes": [
+                "untested"
+              ]
+            }
+          ]
+        },
+        {
+          "testcaseId": "f6b0a52f8bb37ab0a8b290237add5be669a28b2f",
+          "testCaseName": "Failed Example 6",
+          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/f6b0a52f8bb37ab0a8b290237add5be669a28b2f.html",
+          "testCaseApproved": false,
+          "expected": "failed",
+          "procedureResults": [
+            {
+              "procedureName": "object-alt",
+              "outcomes": [
+                "untested"
+              ]
+            }
+          ]
+        },
+        {
+          "testcaseId": "fd273c99d6129f0972ffdbe529b2b1cfa1116cf0",
           "testCaseName": "Inapplicable Example 1",
+          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/fd273c99d6129f0972ffdbe529b2b1cfa1116cf0.html",
+          "testCaseApproved": false,
+          "expected": "inapplicable",
+          "procedureResults": [
+            {
+              "procedureName": "object-alt",
+              "outcomes": [
+                "untested"
+              ]
+            }
+          ]
+        },
+        {
+          "testcaseId": "84c10ba8bc5570e900a60a2e29b319e68fc093da",
+          "testCaseName": "Inapplicable Example 2",
           "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/84c10ba8bc5570e900a60a2e29b319e68fc093da.html",
           "testCaseApproved": false,
           "expected": "inapplicable",
@@ -12544,7 +12694,7 @@
         },
         {
           "testcaseId": "52ac3fd2be278ede2bb32987a32673c6d5ee5edb",
-          "testCaseName": "Inapplicable Example 2",
+          "testCaseName": "Inapplicable Example 3",
           "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/52ac3fd2be278ede2bb32987a32673c6d5ee5edb.html",
           "testCaseApproved": false,
           "expected": "inapplicable",
@@ -12559,7 +12709,7 @@
         },
         {
           "testcaseId": "90927d72c81e9a9b27034a1a99adbab46c86e196",
-          "testCaseName": "Inapplicable Example 3",
+          "testCaseName": "Inapplicable Example 4",
           "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/90927d72c81e9a9b27034a1a99adbab46c86e196.html",
           "testCaseApproved": false,
           "expected": "inapplicable",
@@ -12574,7 +12724,7 @@
         },
         {
           "testcaseId": "511c1b1647549d8af305f68253dda6d4161bd9bc",
-          "testCaseName": "Inapplicable Example 4",
+          "testCaseName": "Inapplicable Example 5",
           "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/511c1b1647549d8af305f68253dda6d4161bd9bc.html",
           "testCaseApproved": false,
           "expected": "inapplicable",
@@ -12589,7 +12739,7 @@
         },
         {
           "testcaseId": "852f57fb1f11a0a58d288746c14d52ce8f8dd97a",
-          "testCaseName": "Inapplicable Example 5",
+          "testCaseName": "Inapplicable Example 6",
           "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/852f57fb1f11a0a58d288746c14d52ce8f8dd97a.html",
           "testCaseApproved": false,
           "expected": "inapplicable",
@@ -12604,7 +12754,7 @@
         },
         {
           "testcaseId": "fac8b25d43d0bbea83f5fe8c5fddf1b3566ac1fb",
-          "testCaseName": "Inapplicable Example 6",
+          "testCaseName": "Inapplicable Example 7",
           "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/fac8b25d43d0bbea83f5fe8c5fddf1b3566ac1fb.html",
           "testCaseApproved": false,
           "expected": "inapplicable",
@@ -12613,6 +12763,21 @@
               "procedureName": "object-alt",
               "outcomes": [
                 "inapplicable"
+              ]
+            }
+          ]
+        },
+        {
+          "testcaseId": "25b2c00b86322f15c0cbb376b58b342fff916f62",
+          "testCaseName": "Inapplicable Example 8",
+          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/25b2c00b86322f15c0cbb376b58b342fff916f62.html",
+          "testCaseApproved": false,
+          "expected": "inapplicable",
+          "procedureResults": [
+            {
+              "procedureName": "object-alt",
+              "outcomes": [
+                "untested"
               ]
             }
           ]
