@@ -3,17 +3,17 @@
   "name": "Axe DevTools Pro",
   "version": "latest",
   "approvedRules": {
-    "complete": 14,
-    "partial": 3,
+    "complete": 15,
+    "partial": 2,
     "minimal": 0,
     "inconsistent": 0,
     "untested": 0
   },
   "proposedRules": {
     "complete": 15,
-    "partial": 13,
+    "partial": 14,
     "minimal": 8,
-    "inconsistent": 17,
+    "inconsistent": 16,
     "untested": 21
   },
   "actRuleMapping": [
@@ -734,7 +734,7 @@
       "procedureNames": [
         "valid-lang"
       ],
-      "consistency": "partial",
+      "consistency": "complete",
       "accessibilityRequirements": {
         "correct": true,
         "expected": [
@@ -745,7 +745,7 @@
         ]
       },
       "coverage": {
-        "covered": 18,
+        "covered": 19,
         "untested": 0,
         "cantTell": 0,
         "testCaseTotal": 19
@@ -882,7 +882,7 @@
             {
               "procedureName": "valid-lang",
               "outcomes": [
-                "passed"
+                "failed"
               ]
             }
           ]
@@ -5911,10 +5911,9 @@
       "ruleName": "ARIA state or property has valid value",
       "ruleApproved": false,
       "procedureNames": [
-        "aria-valid-attr-value",
-        "aria-required-attr"
+        "aria-valid-attr-value"
       ],
-      "consistency": null,
+      "consistency": "partial",
       "accessibilityRequirements": {
         "correct": false,
         "expected": [],
@@ -5923,9 +5922,9 @@
         ]
       },
       "coverage": {
-        "covered": 1,
-        "untested": 23,
-        "cantTell": 0,
+        "covered": 22,
+        "untested": 0,
+        "cantTell": 1,
         "testCaseTotal": 24
       },
       "testCaseResults": [
@@ -5940,12 +5939,6 @@
               "procedureName": "aria-valid-attr-value",
               "outcomes": [
                 "passed"
-              ]
-            },
-            {
-              "procedureName": "aria-required-attr",
-              "outcomes": [
-                "untested"
               ]
             }
           ]
@@ -5962,12 +5955,6 @@
               "outcomes": [
                 "passed"
               ]
-            },
-            {
-              "procedureName": "aria-required-attr",
-              "outcomes": [
-                "untested"
-              ]
             }
           ]
         },
@@ -5982,12 +5969,6 @@
               "procedureName": "aria-valid-attr-value",
               "outcomes": [
                 "passed"
-              ]
-            },
-            {
-              "procedureName": "aria-required-attr",
-              "outcomes": [
-                "untested"
               ]
             }
           ]
@@ -6004,12 +5985,6 @@
               "outcomes": [
                 "passed"
               ]
-            },
-            {
-              "procedureName": "aria-required-attr",
-              "outcomes": [
-                "untested"
-              ]
             }
           ]
         },
@@ -6024,12 +5999,6 @@
               "procedureName": "aria-valid-attr-value",
               "outcomes": [
                 "passed"
-              ]
-            },
-            {
-              "procedureName": "aria-required-attr",
-              "outcomes": [
-                "untested"
               ]
             }
           ]
@@ -6046,12 +6015,6 @@
               "outcomes": [
                 "passed"
               ]
-            },
-            {
-              "procedureName": "aria-required-attr",
-              "outcomes": [
-                "untested"
-              ]
             }
           ]
         },
@@ -6066,12 +6029,6 @@
               "procedureName": "aria-valid-attr-value",
               "outcomes": [
                 "passed"
-              ]
-            },
-            {
-              "procedureName": "aria-required-attr",
-              "outcomes": [
-                "untested"
               ]
             }
           ]
@@ -6088,12 +6045,6 @@
               "outcomes": [
                 "passed"
               ]
-            },
-            {
-              "procedureName": "aria-required-attr",
-              "outcomes": [
-                "untested"
-              ]
             }
           ]
         },
@@ -6108,12 +6059,6 @@
               "procedureName": "aria-valid-attr-value",
               "outcomes": [
                 "passed"
-              ]
-            },
-            {
-              "procedureName": "aria-required-attr",
-              "outcomes": [
-                "untested"
               ]
             }
           ]
@@ -6130,12 +6075,6 @@
               "outcomes": [
                 "passed"
               ]
-            },
-            {
-              "procedureName": "aria-required-attr",
-              "outcomes": [
-                "untested"
-              ]
             }
           ]
         },
@@ -6150,12 +6089,6 @@
               "procedureName": "aria-valid-attr-value",
               "outcomes": [
                 "failed"
-              ]
-            },
-            {
-              "procedureName": "aria-required-attr",
-              "outcomes": [
-                "untested"
               ]
             }
           ]
@@ -6172,12 +6105,6 @@
               "outcomes": [
                 "failed"
               ]
-            },
-            {
-              "procedureName": "aria-required-attr",
-              "outcomes": [
-                "untested"
-              ]
             }
           ]
         },
@@ -6192,12 +6119,6 @@
               "procedureName": "aria-valid-attr-value",
               "outcomes": [
                 "failed"
-              ]
-            },
-            {
-              "procedureName": "aria-required-attr",
-              "outcomes": [
-                "untested"
               ]
             }
           ]
@@ -6214,12 +6135,6 @@
               "outcomes": [
                 "passed"
               ]
-            },
-            {
-              "procedureName": "aria-required-attr",
-              "outcomes": [
-                "untested"
-              ]
             }
           ]
         },
@@ -6234,12 +6149,6 @@
               "procedureName": "aria-valid-attr-value",
               "outcomes": [
                 "failed"
-              ]
-            },
-            {
-              "procedureName": "aria-required-attr",
-              "outcomes": [
-                "untested"
               ]
             }
           ]
@@ -6256,12 +6165,6 @@
               "outcomes": [
                 "failed"
               ]
-            },
-            {
-              "procedureName": "aria-required-attr",
-              "outcomes": [
-                "untested"
-              ]
             }
           ]
         },
@@ -6276,12 +6179,6 @@
               "procedureName": "aria-valid-attr-value",
               "outcomes": [
                 "failed"
-              ]
-            },
-            {
-              "procedureName": "aria-required-attr",
-              "outcomes": [
-                "untested"
               ]
             }
           ]
@@ -6298,12 +6195,6 @@
               "outcomes": [
                 "failed"
               ]
-            },
-            {
-              "procedureName": "aria-required-attr",
-              "outcomes": [
-                "untested"
-              ]
             }
           ]
         },
@@ -6318,12 +6209,6 @@
               "procedureName": "aria-valid-attr-value",
               "outcomes": [
                 "failed"
-              ]
-            },
-            {
-              "procedureName": "aria-required-attr",
-              "outcomes": [
-                "untested"
               ]
             }
           ]
@@ -6340,12 +6225,6 @@
               "outcomes": [
                 "failed"
               ]
-            },
-            {
-              "procedureName": "aria-required-attr",
-              "outcomes": [
-                "untested"
-              ]
             }
           ]
         },
@@ -6358,12 +6237,6 @@
           "procedureResults": [
             {
               "procedureName": "aria-valid-attr-value",
-              "outcomes": [
-                "inapplicable"
-              ]
-            },
-            {
-              "procedureName": "aria-required-attr",
               "outcomes": [
                 "inapplicable"
               ]
@@ -6382,12 +6255,6 @@
               "outcomes": [
                 "inapplicable"
               ]
-            },
-            {
-              "procedureName": "aria-required-attr",
-              "outcomes": [
-                "untested"
-              ]
             }
           ]
         },
@@ -6401,13 +6268,7 @@
             {
               "procedureName": "aria-valid-attr-value",
               "outcomes": [
-                "failed"
-              ]
-            },
-            {
-              "procedureName": "aria-required-attr",
-              "outcomes": [
-                "untested"
+                "cantTell"
               ]
             }
           ]
@@ -6423,12 +6284,6 @@
               "procedureName": "aria-valid-attr-value",
               "outcomes": [
                 "inapplicable"
-              ]
-            },
-            {
-              "procedureName": "aria-required-attr",
-              "outcomes": [
-                "untested"
               ]
             }
           ]
