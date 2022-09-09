@@ -11,9 +11,9 @@
   },
   "proposedRules": {
     "complete": 13,
-    "partial": 10,
+    "partial": 9,
     "minimal": 8,
-    "inconsistent": 14,
+    "inconsistent": 15,
     "untested": 29
   },
   "actRuleMapping": [
@@ -12350,7 +12350,7 @@
       "procedureNames": [
         "object-alt"
       ],
-      "consistency": "partial",
+      "consistency": null,
       "accessibilityRequirements": {
         "correct": true,
         "expected": [
@@ -12361,8 +12361,8 @@
         ]
       },
       "coverage": {
-        "covered": 14,
-        "untested": 4,
+        "covered": 17,
+        "untested": 0,
         "cantTell": 0,
         "testCaseTotal": 18
       },
@@ -12497,7 +12497,7 @@
             {
               "procedureName": "object-alt",
               "outcomes": [
-                "untested"
+                "failed"
               ]
             }
           ]
@@ -12512,7 +12512,7 @@
             {
               "procedureName": "object-alt",
               "outcomes": [
-                "untested"
+                "failed"
               ]
             }
           ]
@@ -12527,7 +12527,7 @@
             {
               "procedureName": "object-alt",
               "outcomes": [
-                "untested"
+                "passed"
               ]
             }
           ]
@@ -12632,7 +12632,7 @@
             {
               "procedureName": "object-alt",
               "outcomes": [
-                "untested"
+                "failed"
               ]
             }
           ]
