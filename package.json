@@ -13,7 +13,7 @@
     "test": "jest",
     "develop": "jest --watch"
   },
-  "testCaseJson": "https://raw.githubusercontent.com/w3c/wcag-act-rules/master/content-assets/wcag-act-rules/testcases.json",
+  "testCaseJson": "https://raw.githubusercontent.com/w3c/wcag-act-rules/main/content-assets/wcag-act-rules/testcases.json",
   "dependencies": {
     "@axe-core/puppeteer": "latest",
     "@types/fs-extra": "^9.0.13",
