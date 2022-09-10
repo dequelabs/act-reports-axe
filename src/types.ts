@@ -12,6 +12,8 @@ export type PageRunner = () => Promise<void>
 
 export type TestCase = {
   url: string,
+  testcaseId: string,
+  testcaseTitle: string,
   ruleSuccessCriterion: string[],
   ruleId: string,
   ruleName: string,
