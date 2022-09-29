@@ -10,10 +10,10 @@
     "untested": 0
   },
   "proposedRules": {
-    "complete": 15,
+    "complete": 16,
     "partial": 12,
     "minimal": 8,
-    "inconsistent": 18,
+    "inconsistent": 17,
     "untested": 21
   },
   "actRuleMapping": [
@@ -1217,8 +1217,8 @@
       "ruleName": "Form field has non-empty accessible name",
       "ruleApproved": true,
       "procedureNames": [
-        "label",
         "aria-input-field-name",
+        "label",
         "select-name"
       ],
       "consistency": "complete",
@@ -1246,15 +1246,15 @@
           "expected": "passed",
           "procedureResults": [
             {
-              "procedureName": "label",
-              "outcomes": [
-                "passed"
-              ]
-            },
-            {
               "procedureName": "aria-input-field-name",
               "outcomes": [
                 "inapplicable"
+              ]
+            },
+            {
+              "procedureName": "label",
+              "outcomes": [
+                "passed"
               ]
             },
             {
@@ -1273,15 +1273,15 @@
           "expected": "passed",
           "procedureResults": [
             {
-              "procedureName": "label",
-              "outcomes": [
-                "passed"
-              ]
-            },
-            {
               "procedureName": "aria-input-field-name",
               "outcomes": [
                 "inapplicable"
+              ]
+            },
+            {
+              "procedureName": "label",
+              "outcomes": [
+                "passed"
               ]
             },
             {
@@ -1300,13 +1300,13 @@
           "expected": "passed",
           "procedureResults": [
             {
-              "procedureName": "label",
+              "procedureName": "aria-input-field-name",
               "outcomes": [
                 "inapplicable"
               ]
             },
             {
-              "procedureName": "aria-input-field-name",
+              "procedureName": "label",
               "outcomes": [
                 "inapplicable"
               ]
@@ -1327,15 +1327,15 @@
           "expected": "passed",
           "procedureResults": [
             {
-              "procedureName": "label",
-              "outcomes": [
-                "passed"
-              ]
-            },
-            {
               "procedureName": "aria-input-field-name",
               "outcomes": [
                 "inapplicable"
+              ]
+            },
+            {
+              "procedureName": "label",
+              "outcomes": [
+                "passed"
               ]
             },
             {
@@ -1354,15 +1354,15 @@
           "expected": "passed",
           "procedureResults": [
             {
-              "procedureName": "label",
-              "outcomes": [
-                "passed"
-              ]
-            },
-            {
               "procedureName": "aria-input-field-name",
               "outcomes": [
                 "inapplicable"
+              ]
+            },
+            {
+              "procedureName": "label",
+              "outcomes": [
+                "passed"
               ]
             },
             {
@@ -1381,15 +1381,15 @@
           "expected": "passed",
           "procedureResults": [
             {
-              "procedureName": "label",
-              "outcomes": [
-                "inapplicable"
-              ]
-            },
-            {
               "procedureName": "aria-input-field-name",
               "outcomes": [
                 "passed"
+              ]
+            },
+            {
+              "procedureName": "label",
+              "outcomes": [
+                "inapplicable"
               ]
             },
             {
@@ -1408,13 +1408,13 @@
           "expected": "passed",
           "procedureResults": [
             {
-              "procedureName": "label",
+              "procedureName": "aria-input-field-name",
               "outcomes": [
                 "inapplicable"
               ]
             },
             {
-              "procedureName": "aria-input-field-name",
+              "procedureName": "label",
               "outcomes": [
                 "inapplicable"
               ]
@@ -1435,15 +1435,15 @@
           "expected": "failed",
           "procedureResults": [
             {
-              "procedureName": "label",
-              "outcomes": [
-                "failed"
-              ]
-            },
-            {
               "procedureName": "aria-input-field-name",
               "outcomes": [
                 "inapplicable"
+              ]
+            },
+            {
+              "procedureName": "label",
+              "outcomes": [
+                "failed"
               ]
             },
             {
@@ -1462,15 +1462,15 @@
           "expected": "failed",
           "procedureResults": [
             {
-              "procedureName": "label",
-              "outcomes": [
-                "failed"
-              ]
-            },
-            {
               "procedureName": "aria-input-field-name",
               "outcomes": [
                 "inapplicable"
+              ]
+            },
+            {
+              "procedureName": "label",
+              "outcomes": [
+                "failed"
               ]
             },
             {
@@ -1489,15 +1489,15 @@
           "expected": "failed",
           "procedureResults": [
             {
-              "procedureName": "label",
-              "outcomes": [
-                "failed"
-              ]
-            },
-            {
               "procedureName": "aria-input-field-name",
               "outcomes": [
                 "inapplicable"
+              ]
+            },
+            {
+              "procedureName": "label",
+              "outcomes": [
+                "failed"
               ]
             },
             {
@@ -1516,13 +1516,13 @@
           "expected": "failed",
           "procedureResults": [
             {
-              "procedureName": "label",
+              "procedureName": "aria-input-field-name",
               "outcomes": [
                 "inapplicable"
               ]
             },
             {
-              "procedureName": "aria-input-field-name",
+              "procedureName": "label",
               "outcomes": [
                 "inapplicable"
               ]
@@ -1543,15 +1543,15 @@
           "expected": "failed",
           "procedureResults": [
             {
-              "procedureName": "label",
-              "outcomes": [
-                "inapplicable"
-              ]
-            },
-            {
               "procedureName": "aria-input-field-name",
               "outcomes": [
                 "failed"
+              ]
+            },
+            {
+              "procedureName": "label",
+              "outcomes": [
+                "inapplicable"
               ]
             },
             {
@@ -1570,15 +1570,15 @@
           "expected": "failed",
           "procedureResults": [
             {
-              "procedureName": "label",
-              "outcomes": [
-                "inapplicable"
-              ]
-            },
-            {
               "procedureName": "aria-input-field-name",
               "outcomes": [
                 "failed"
+              ]
+            },
+            {
+              "procedureName": "label",
+              "outcomes": [
+                "inapplicable"
               ]
             },
             {
@@ -1597,15 +1597,15 @@
           "expected": "failed",
           "procedureResults": [
             {
-              "procedureName": "label",
-              "outcomes": [
-                "inapplicable"
-              ]
-            },
-            {
               "procedureName": "aria-input-field-name",
               "outcomes": [
                 "failed"
+              ]
+            },
+            {
+              "procedureName": "label",
+              "outcomes": [
+                "inapplicable"
               ]
             },
             {
@@ -1624,13 +1624,13 @@
           "expected": "inapplicable",
           "procedureResults": [
             {
-              "procedureName": "label",
+              "procedureName": "aria-input-field-name",
               "outcomes": [
                 "inapplicable"
               ]
             },
             {
-              "procedureName": "aria-input-field-name",
+              "procedureName": "label",
               "outcomes": [
                 "inapplicable"
               ]
@@ -1651,13 +1651,13 @@
           "expected": "inapplicable",
           "procedureResults": [
             {
-              "procedureName": "label",
+              "procedureName": "aria-input-field-name",
               "outcomes": [
                 "inapplicable"
               ]
             },
             {
-              "procedureName": "aria-input-field-name",
+              "procedureName": "label",
               "outcomes": [
                 "inapplicable"
               ]
@@ -1678,13 +1678,13 @@
           "expected": "inapplicable",
           "procedureResults": [
             {
-              "procedureName": "label",
+              "procedureName": "aria-input-field-name",
               "outcomes": [
                 "inapplicable"
               ]
             },
             {
-              "procedureName": "aria-input-field-name",
+              "procedureName": "label",
               "outcomes": [
                 "inapplicable"
               ]
@@ -8898,7 +8898,7 @@
       "procedureNames": [
         "label-visible-not-descriptive (forms)"
       ],
-      "consistency": "partial",
+      "consistency": "complete",
       "accessibilityRequirements": {
         "correct": true,
         "expected": [
@@ -8909,8 +8909,8 @@
         ]
       },
       "coverage": {
-        "covered": 10,
-        "untested": 4,
+        "covered": 14,
+        "untested": 0,
         "cantTell": 0,
         "testCaseTotal": 14
       },
@@ -9060,7 +9060,7 @@
             {
               "procedureName": "label-visible-not-descriptive (forms)",
               "outcomes": [
-                "untested"
+                "failed"
               ]
             }
           ]
@@ -9075,7 +9075,7 @@
             {
               "procedureName": "label-visible-not-descriptive (forms)",
               "outcomes": [
-                "untested"
+                "failed"
               ]
             }
           ]
@@ -9105,7 +9105,7 @@
             {
               "procedureName": "label-visible-not-descriptive (forms)",
               "outcomes": [
-                "untested"
+                "inapplicable"
               ]
             }
           ]
@@ -9120,7 +9120,7 @@
             {
               "procedureName": "label-visible-not-descriptive (forms)",
               "outcomes": [
-                "untested"
+                "inapplicable"
               ]
             }
           ]
@@ -11059,20 +11059,21 @@
       "ruleName": "Image accessible name is descriptive",
       "ruleApproved": false,
       "procedureNames": [
-        "alt-text-short-text-not-meaningful (Images)",
-        "alt-text-missing + semantic-hidden (images)"
+        "alt-text-short-text-not-meaningful (Images)"
       ],
-      "consistency": null,
+      "consistency": "partial",
       "accessibilityRequirements": {
-        "correct": false,
+        "correct": true,
         "expected": [
           "WCAG2:non-text-content"
         ],
-        "reported": []
+        "reported": [
+          "WCAG2:non-text-content"
+        ]
       },
       "coverage": {
-        "covered": 2,
-        "untested": 14,
+        "covered": 11,
+        "untested": 5,
         "cantTell": 0,
         "testCaseTotal": 16
       },
@@ -11089,12 +11090,6 @@
               "outcomes": [
                 "untested"
               ]
-            },
-            {
-              "procedureName": "alt-text-missing + semantic-hidden (images)",
-              "outcomes": [
-                "untested"
-              ]
             }
           ]
         },
@@ -11108,13 +11103,7 @@
             {
               "procedureName": "alt-text-short-text-not-meaningful (Images)",
               "outcomes": [
-                "untested"
-              ]
-            },
-            {
-              "procedureName": "alt-text-missing + semantic-hidden (images)",
-              "outcomes": [
-                "untested"
+                "passed"
               ]
             }
           ]
@@ -11128,12 +11117,6 @@
           "procedureResults": [
             {
               "procedureName": "alt-text-short-text-not-meaningful (Images)",
-              "outcomes": [
-                "untested"
-              ]
-            },
-            {
-              "procedureName": "alt-text-missing + semantic-hidden (images)",
               "outcomes": [
                 "untested"
               ]
@@ -11152,12 +11135,6 @@
               "outcomes": [
                 "untested"
               ]
-            },
-            {
-              "procedureName": "alt-text-missing + semantic-hidden (images)",
-              "outcomes": [
-                "untested"
-              ]
             }
           ]
         },
@@ -11171,13 +11148,7 @@
             {
               "procedureName": "alt-text-short-text-not-meaningful (Images)",
               "outcomes": [
-                "untested"
-              ]
-            },
-            {
-              "procedureName": "alt-text-missing + semantic-hidden (images)",
-              "outcomes": [
-                "untested"
+                "failed"
               ]
             }
           ]
@@ -11191,12 +11162,6 @@
           "procedureResults": [
             {
               "procedureName": "alt-text-short-text-not-meaningful (Images)",
-              "outcomes": [
-                "untested"
-              ]
-            },
-            {
-              "procedureName": "alt-text-missing + semantic-hidden (images)",
               "outcomes": [
                 "untested"
               ]
@@ -11215,12 +11180,6 @@
               "outcomes": [
                 "passed"
               ]
-            },
-            {
-              "procedureName": "alt-text-missing + semantic-hidden (images)",
-              "outcomes": [
-                "untested"
-              ]
             }
           ]
         },
@@ -11235,12 +11194,6 @@
               "procedureName": "alt-text-short-text-not-meaningful (Images)",
               "outcomes": [
                 "passed"
-              ]
-            },
-            {
-              "procedureName": "alt-text-missing + semantic-hidden (images)",
-              "outcomes": [
-                "untested"
               ]
             }
           ]
@@ -11257,12 +11210,6 @@
               "outcomes": [
                 "passed"
               ]
-            },
-            {
-              "procedureName": "alt-text-missing + semantic-hidden (images)",
-              "outcomes": [
-                "untested"
-              ]
             }
           ]
         },
@@ -11278,12 +11225,6 @@
               "outcomes": [
                 "passed"
               ]
-            },
-            {
-              "procedureName": "alt-text-missing + semantic-hidden (images)",
-              "outcomes": [
-                "untested"
-              ]
             }
           ]
         },
@@ -11296,12 +11237,6 @@
           "procedureResults": [
             {
               "procedureName": "alt-text-short-text-not-meaningful (Images)",
-              "outcomes": [
-                "untested"
-              ]
-            },
-            {
-              "procedureName": "alt-text-missing + semantic-hidden (images)",
               "outcomes": [
                 "untested"
               ]
@@ -11320,12 +11255,6 @@
               "outcomes": [
                 "passed"
               ]
-            },
-            {
-              "procedureName": "alt-text-missing + semantic-hidden (images)",
-              "outcomes": [
-                "untested"
-              ]
             }
           ]
         },
@@ -11340,12 +11269,6 @@
               "procedureName": "alt-text-short-text-not-meaningful (Images)",
               "outcomes": [
                 "passed"
-              ]
-            },
-            {
-              "procedureName": "alt-text-missing + semantic-hidden (images)",
-              "outcomes": [
-                "untested"
               ]
             }
           ]
@@ -11362,12 +11285,6 @@
               "outcomes": [
                 "passed"
               ]
-            },
-            {
-              "procedureName": "alt-text-missing + semantic-hidden (images)",
-              "outcomes": [
-                "untested"
-              ]
             }
           ]
         },
@@ -11383,12 +11300,6 @@
               "outcomes": [
                 "inapplicable"
               ]
-            },
-            {
-              "procedureName": "alt-text-missing + semantic-hidden (images)",
-              "outcomes": [
-                "inapplicable"
-              ]
             }
           ]
         },
@@ -11401,12 +11312,6 @@
           "procedureResults": [
             {
               "procedureName": "alt-text-short-text-not-meaningful (Images)",
-              "outcomes": [
-                "passed"
-              ]
-            },
-            {
-              "procedureName": "alt-text-missing + semantic-hidden (images)",
               "outcomes": [
                 "passed"
               ]
