@@ -13924,8 +13924,8 @@
         ]
       },
       "coverage": {
-        "covered": 16,
-        "untested": 1,
+        "covered": 17,
+        "untested": 0,
         "cantTell": 0,
         "testCaseTotal": 18
       },
@@ -13970,7 +13970,7 @@
             {
               "procedureName": "object-alt",
               "outcomes": [
-                "untested"
+                "passed"
               ]
             }
           ]
