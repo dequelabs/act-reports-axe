@@ -22,7 +22,11 @@ export const axeRunTestCase: ToolRunner = async (
   page: Page,
   testCase: TestCase
 ): Promise<EarlReport | void> => {
-  const { url = "", ruleSuccessCriterion: tags = [], ruleId } = testCase;
+  const { ruleSuccessCriterion: tags = [], ruleId } = testCase;
+  const url = (testCase?.url || "").replace(
+    'https://www.w3.org/WAI/',
+    'https://wai-wcag-act-rules.netlify.app/'
+  )
   // check if running axe should be ignored
   const extn = getFileExtension(url);
   const env = { url, version: axe.version };
