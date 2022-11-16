@@ -3,8 +3,8 @@
   "name": "Axe DevTools Pro",
   "version": "latest",
   "approvedRules": {
-    "complete": 18,
-    "partial": 3,
+    "complete": 19,
+    "partial": 2,
     "minimal": 0,
     "inconsistent": 1,
     "untested": 0
@@ -5823,7 +5823,7 @@
       "procedureNames": [
         "object-alt"
       ],
-      "consistency": "partial",
+      "consistency": "complete",
       "accessibilityRequirements": {
         "correct": true,
         "expected": [
@@ -5834,7 +5834,7 @@
         ]
       },
       "coverage": {
-        "covered": 17,
+        "covered": 18,
         "untested": 0,
         "cantTell": 0,
         "testCaseTotal": 18
@@ -5970,7 +5970,7 @@
             {
               "procedureName": "object-alt",
               "outcomes": [
-                "inapplicable"
+                "failed"
               ]
             }
           ]

@@ -23,10 +23,15 @@ export const axeRunTestCase: ToolRunner = async (
   testCase: TestCase
 ): Promise<EarlReport | void> => {
   const { ruleSuccessCriterion: tags = [], ruleId } = testCase;
-  const url = (testCase?.url || "").replace(
-    'https://www.w3.org/WAI/',
-    'https://wai-wcag-act-rules.netlify.app/'
-  )
+  let url = testCase?.url;
+  // Workaround for Netlify issue where the Object rule won't load the images
+  if (testCase.ruleId !== '8fc3b6') {
+    url = (testCase?.url || "").replace(
+      'https://www.w3.org/WAI/',
+      'https://wai-wcag-act-rules.netlify.app/'
+    )
+  }
+
   // check if running axe should be ignored
   const extn = getFileExtension(url);
   const env = { url, version: axe.version };
@@ -38,6 +43,9 @@ export const axeRunTestCase: ToolRunner = async (
 
   // Get the page and make sure it loads correctly
   await page.goto(url, { waitUntil: "networkidle0" });
+  if (testCase.ruleId === '8fc3b6') {
+    await new Promise(r => setTimeout(r, 200))
+  }
 
   // if given page is of type `html`, ensure it loaded
   if (extn === `html`) {
