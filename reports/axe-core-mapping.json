@@ -10,8 +10,8 @@
     "untested": 0
   },
   "proposedRules": {
-    "complete": 8,
-    "partial": 10,
+    "complete": 9,
+    "partial": 9,
     "minimal": 8,
     "inconsistent": 14,
     "untested": 29
@@ -6508,7 +6508,7 @@
       "procedureNames": [
         "aria-required-children"
       ],
-      "consistency": "partial",
+      "consistency": "complete",
       "accessibilityRequirements": {
         "correct": true,
         "expected": [
@@ -6519,7 +6519,7 @@
         ]
       },
       "coverage": {
-        "covered": 16,
+        "covered": 17,
         "untested": 0,
         "cantTell": 0,
         "testCaseTotal": 17
@@ -6717,7 +6717,7 @@
             {
               "procedureName": "aria-required-children",
               "outcomes": [
-                "passed"
+                "failed"
               ]
             }
           ]
@@ -13129,7 +13129,7 @@
       "procedureNames": [
         "aria-required-attr"
       ],
-      "consistency": "partial",
+      "consistency": "complete",
       "accessibilityRequirements": {
         "correct": true,
         "expected": [
@@ -13140,7 +13140,7 @@
         ]
       },
       "coverage": {
-        "covered": 12,
+        "covered": 15,
         "untested": 0,
         "cantTell": 0,
         "testCaseTotal": 15
@@ -13281,7 +13281,7 @@
             {
               "procedureName": "aria-required-attr",
               "outcomes": [
-                "passed"
+                "failed"
               ]
             }
           ]
@@ -13296,7 +13296,7 @@
             {
               "procedureName": "aria-required-attr",
               "outcomes": [
-                "passed"
+                "failed"
               ]
             }
           ]
@@ -13332,7 +13332,7 @@
                 "passed",
                 "passed",
                 "passed",
-                "passed"
+                "failed"
               ]
             }
           ]
@@ -13403,8 +13403,8 @@
         ]
       },
       "coverage": {
-        "covered": 9,
-        "untested": 1,
+        "covered": 10,
+        "untested": 0,
         "cantTell": 0,
         "testCaseTotal": 10
       },
@@ -13554,7 +13554,7 @@
             {
               "procedureName": "scrollable-region-focusable",
               "outcomes": [
-                "untested"
+                "inapplicable"
               ]
             }
           ]
@@ -13869,6 +13869,7 @@
             {
               "procedureName": "color-contrast",
               "outcomes": [
+                "passed",
                 "passed"
               ]
             }
@@ -13929,6 +13930,7 @@
             {
               "procedureName": "color-contrast",
               "outcomes": [
+                "passed",
                 "passed"
               ]
             }
@@ -13944,6 +13946,7 @@
             {
               "procedureName": "color-contrast",
               "outcomes": [
+                "passed",
                 "passed"
               ]
             }
@@ -13959,6 +13962,7 @@
             {
               "procedureName": "color-contrast",
               "outcomes": [
+                "inapplicable",
                 "inapplicable"
               ]
             }
@@ -13974,6 +13978,7 @@
             {
               "procedureName": "color-contrast",
               "outcomes": [
+                "passed",
                 "passed"
               ]
             }
@@ -13989,6 +13994,7 @@
             {
               "procedureName": "color-contrast",
               "outcomes": [
+                "passed",
                 "passed"
               ]
             }
@@ -14125,6 +14131,7 @@
             {
               "procedureName": "color-contrast",
               "outcomes": [
+                "inapplicable",
                 "inapplicable"
               ]
             }
@@ -14140,6 +14147,7 @@
             {
               "procedureName": "color-contrast",
               "outcomes": [
+                "inapplicable",
                 "inapplicable"
               ]
             }
@@ -14155,6 +14163,7 @@
             {
               "procedureName": "color-contrast",
               "outcomes": [
+                "cantTell",
                 "cantTell"
               ]
             }
@@ -14170,6 +14179,7 @@
             {
               "procedureName": "color-contrast",
               "outcomes": [
+                "cantTell",
                 "cantTell"
               ]
             }
@@ -14185,6 +14195,7 @@
             {
               "procedureName": "color-contrast",
               "outcomes": [
+                "inapplicable",
                 "inapplicable"
               ]
             }
@@ -14200,6 +14211,7 @@
             {
               "procedureName": "color-contrast",
               "outcomes": [
+                "passed",
                 "passed"
               ]
             }
@@ -14215,6 +14227,7 @@
             {
               "procedureName": "color-contrast",
               "outcomes": [
+                "passed",
                 "passed"
               ]
             }
@@ -14230,6 +14243,7 @@
             {
               "procedureName": "color-contrast",
               "outcomes": [
+                "inapplicable",
                 "inapplicable"
               ]
             }
@@ -14245,6 +14259,7 @@
             {
               "procedureName": "color-contrast",
               "outcomes": [
+                "inapplicable",
                 "inapplicable"
               ]
             }
@@ -14260,6 +14275,7 @@
             {
               "procedureName": "color-contrast",
               "outcomes": [
+                "inapplicable",
                 "inapplicable"
               ]
             }
@@ -14275,6 +14291,7 @@
             {
               "procedureName": "color-contrast",
               "outcomes": [
+                "inapplicable",
                 "inapplicable"
               ]
             }
@@ -14289,7 +14306,7 @@
       "procedureNames": [
         "color-contrast-enhanced"
       ],
-      "consistency": "complete",
+      "consistency": "partial",
       "accessibilityRequirements": {
         "correct": true,
         "expected": [
@@ -14300,9 +14317,9 @@
         ]
       },
       "coverage": {
-        "covered": 22,
+        "covered": 26,
         "untested": 0,
-        "cantTell": 7,
+        "cantTell": 0,
         "testCaseTotal": 29
       },
       "testCaseResults": [
@@ -14331,7 +14348,7 @@
             {
               "procedureName": "color-contrast-enhanced",
               "outcomes": [
-                "cantTell"
+                "passed"
               ]
             }
           ]
@@ -14346,7 +14363,7 @@
             {
               "procedureName": "color-contrast-enhanced",
               "outcomes": [
-                "cantTell"
+                "passed"
               ]
             }
           ]
@@ -14451,7 +14468,7 @@
             {
               "procedureName": "color-contrast-enhanced",
               "outcomes": [
-                "cantTell"
+                "passed"
               ]
             }
           ]
@@ -14496,7 +14513,7 @@
             {
               "procedureName": "color-contrast-enhanced",
               "outcomes": [
-                "cantTell"
+                "passed"
               ]
             }
           ]
@@ -14556,7 +14573,7 @@
             {
               "procedureName": "color-contrast-enhanced",
               "outcomes": [
-                "cantTell"
+                "passed"
               ]
             }
           ]
@@ -14617,7 +14634,7 @@
             {
               "procedureName": "color-contrast-enhanced",
               "outcomes": [
-                "cantTell"
+                "passed"
               ]
             }
           ]
@@ -14632,7 +14649,7 @@
             {
               "procedureName": "color-contrast-enhanced",
               "outcomes": [
-                "cantTell"
+                "passed"
               ]
             }
           ]
@@ -15462,8 +15479,8 @@
       "ruleName": "Zoomed text node is not clipped with CSS overflow",
       "ruleApproved": false,
       "procedureNames": [
-        "color-contrast",
-        "color-contrast-enhanced"
+        "color-contrast-enhanced",
+        "color-contrast"
       ],
       "consistency": null,
       "accessibilityRequirements": {
@@ -15488,13 +15505,13 @@
           "expected": "passed",
           "procedureResults": [
             {
-              "procedureName": "color-contrast",
+              "procedureName": "color-contrast-enhanced",
               "outcomes": [
                 "untested"
               ]
             },
             {
-              "procedureName": "color-contrast-enhanced",
+              "procedureName": "color-contrast",
               "outcomes": [
                 "untested"
               ]
@@ -15509,13 +15526,13 @@
           "expected": "passed",
           "procedureResults": [
             {
-              "procedureName": "color-contrast",
+              "procedureName": "color-contrast-enhanced",
               "outcomes": [
                 "untested"
               ]
             },
             {
-              "procedureName": "color-contrast-enhanced",
+              "procedureName": "color-contrast",
               "outcomes": [
                 "untested"
               ]
@@ -15530,13 +15547,13 @@
           "expected": "passed",
           "procedureResults": [
             {
-              "procedureName": "color-contrast",
+              "procedureName": "color-contrast-enhanced",
               "outcomes": [
                 "untested"
               ]
             },
             {
-              "procedureName": "color-contrast-enhanced",
+              "procedureName": "color-contrast",
               "outcomes": [
                 "untested"
               ]
@@ -15551,13 +15568,13 @@
           "expected": "passed",
           "procedureResults": [
             {
-              "procedureName": "color-contrast",
+              "procedureName": "color-contrast-enhanced",
               "outcomes": [
                 "untested"
               ]
             },
             {
-              "procedureName": "color-contrast-enhanced",
+              "procedureName": "color-contrast",
               "outcomes": [
                 "untested"
               ]
@@ -15572,13 +15589,13 @@
           "expected": "failed",
           "procedureResults": [
             {
-              "procedureName": "color-contrast",
+              "procedureName": "color-contrast-enhanced",
               "outcomes": [
                 "untested"
               ]
             },
             {
-              "procedureName": "color-contrast-enhanced",
+              "procedureName": "color-contrast",
               "outcomes": [
                 "untested"
               ]
@@ -15593,13 +15610,13 @@
           "expected": "failed",
           "procedureResults": [
             {
-              "procedureName": "color-contrast",
+              "procedureName": "color-contrast-enhanced",
               "outcomes": [
                 "untested"
               ]
             },
             {
-              "procedureName": "color-contrast-enhanced",
+              "procedureName": "color-contrast",
               "outcomes": [
                 "untested"
               ]
@@ -15614,13 +15631,13 @@
           "expected": "failed",
           "procedureResults": [
             {
-              "procedureName": "color-contrast",
+              "procedureName": "color-contrast-enhanced",
               "outcomes": [
                 "untested"
               ]
             },
             {
-              "procedureName": "color-contrast-enhanced",
+              "procedureName": "color-contrast",
               "outcomes": [
                 "untested"
               ]
@@ -15635,13 +15652,13 @@
           "expected": "failed",
           "procedureResults": [
             {
-              "procedureName": "color-contrast",
+              "procedureName": "color-contrast-enhanced",
               "outcomes": [
                 "untested"
               ]
             },
             {
-              "procedureName": "color-contrast-enhanced",
+              "procedureName": "color-contrast",
               "outcomes": [
                 "untested"
               ]
@@ -15656,13 +15673,13 @@
           "expected": "failed",
           "procedureResults": [
             {
-              "procedureName": "color-contrast",
+              "procedureName": "color-contrast-enhanced",
               "outcomes": [
                 "untested"
               ]
             },
             {
-              "procedureName": "color-contrast-enhanced",
+              "procedureName": "color-contrast",
               "outcomes": [
                 "untested"
               ]
@@ -15677,13 +15694,13 @@
           "expected": "inapplicable",
           "procedureResults": [
             {
-              "procedureName": "color-contrast",
+              "procedureName": "color-contrast-enhanced",
               "outcomes": [
                 "untested"
               ]
             },
             {
-              "procedureName": "color-contrast-enhanced",
+              "procedureName": "color-contrast",
               "outcomes": [
                 "untested"
               ]
@@ -15698,14 +15715,15 @@
           "expected": "inapplicable",
           "procedureResults": [
             {
-              "procedureName": "color-contrast",
+              "procedureName": "color-contrast-enhanced",
               "outcomes": [
-                "cantTell"
+                "passed"
               ]
             },
             {
-              "procedureName": "color-contrast-enhanced",
+              "procedureName": "color-contrast",
               "outcomes": [
+                "cantTell",
                 "cantTell"
               ]
             }
@@ -15719,13 +15737,13 @@
           "expected": "inapplicable",
           "procedureResults": [
             {
-              "procedureName": "color-contrast",
+              "procedureName": "color-contrast-enhanced",
               "outcomes": [
                 "untested"
               ]
             },
             {
-              "procedureName": "color-contrast-enhanced",
+              "procedureName": "color-contrast",
               "outcomes": [
                 "untested"
               ]
@@ -15740,13 +15758,13 @@
           "expected": "inapplicable",
           "procedureResults": [
             {
-              "procedureName": "color-contrast",
+              "procedureName": "color-contrast-enhanced",
               "outcomes": [
                 "untested"
               ]
             },
             {
-              "procedureName": "color-contrast-enhanced",
+              "procedureName": "color-contrast",
               "outcomes": [
                 "untested"
               ]
@@ -15761,13 +15779,13 @@
           "expected": "inapplicable",
           "procedureResults": [
             {
-              "procedureName": "color-contrast",
+              "procedureName": "color-contrast-enhanced",
               "outcomes": [
                 "untested"
               ]
             },
             {
-              "procedureName": "color-contrast-enhanced",
+              "procedureName": "color-contrast",
               "outcomes": [
                 "untested"
               ]
