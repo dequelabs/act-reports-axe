@@ -1016,15 +1016,15 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==
 
-axe-core@next:
-  version "4.5.2-canary.563e4e9"
-  resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.5.2-canary.563e4e9.tgz#34d78de47862093c406400bb2e78c5ad0867e40c"
-  integrity sha512-K2H3PT/LJXoCa+GIUEs2e5f6pdeIwi77Q9HHXXJD4BHQTz1oChkxeBFgizXH8Q8tlQETAf3VHHBeNcQ8OC/FcA==
-
 axe-core@^4.4.3:
   version "4.4.3"
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.4.3.tgz#11c74d23d5013c0fa5d183796729bc3482bd2f6f"
   integrity sha512-32+ub6kkdhhWick/UjvEwRchgoetXqTK14INLqbGm5U2TzBkBNF3nQtLYm8ovxSkQWArjEQvftCKryjZaATu3w==
+
+axe-core@^4.5.2-canary.9e1e31b:
+  version "4.5.2-canary.9e1e31b"
+  resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.5.2-canary.9e1e31b.tgz#c788f3d6fb78def3144bf0f986ed47df2e260dec"
+  integrity sha512-l0e6TTvVdYobltRk9YFpp2C/BHKvPXoJgsmDKsJ14aOUl7SkuA//TzO8H1Uo5x9pkEEQW6m+puFeco+LG9AP7g==
 
 axios@^0.26.1:
   version "0.26.1"
