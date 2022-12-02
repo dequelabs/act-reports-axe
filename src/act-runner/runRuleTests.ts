@@ -1,4 +1,3 @@
-import assert from "assert";
 import { EarlReport, TestCase } from "../types";
 
 export type PageRunner = (testCase: TestCase) => Promise<EarlReport | void>

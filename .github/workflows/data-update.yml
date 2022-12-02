@@ -13,14 +13,14 @@ jobs:
       - uses: actions/setup-node@v2
       - uses: c-hive/gha-yarn-cache@v2
       ## Make sure we have the latest version of axe-core
-      - run: yarn add axe-core@next
+      - run: yarn upgrade axe-core@next
       - run: yarn cleanup:core
       - run: yarn report
       - name: Git configure
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-      - run: git add reports/.
+      - run: git add reports/. package.json yarn.lock
       # Commit if there's anything staged
       - run: git diff-index --quiet HEAD || git commit -m "Daily update of axe ACT reports" --no-verify
       - run: git push
