@@ -8987,7 +8987,7 @@
               "procedureName": "bypass",
               "outcomes": [
                 "passed",
-                "passed"
+                "inapplicable"
               ]
             }
           ]
@@ -9003,7 +9003,7 @@
               "procedureName": "bypass",
               "outcomes": [
                 "passed",
-                "passed"
+                "inapplicable"
               ]
             }
           ]
@@ -9612,7 +9612,7 @@
               "procedureName": "bypass",
               "outcomes": [
                 "passed",
-                "passed"
+                "inapplicable"
               ]
             }
           ]
@@ -9628,7 +9628,7 @@
               "procedureName": "bypass",
               "outcomes": [
                 "passed",
-                "passed"
+                "inapplicable"
               ]
             }
           ]
