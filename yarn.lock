@@ -1021,10 +1021,10 @@ axe-core@^4.4.3:
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.4.3.tgz#11c74d23d5013c0fa5d183796729bc3482bd2f6f"
   integrity sha512-32+ub6kkdhhWick/UjvEwRchgoetXqTK14INLqbGm5U2TzBkBNF3nQtLYm8ovxSkQWArjEQvftCKryjZaATu3w==
 
-axe-core@^4.6.2-canary.57bd81d:
-  version "4.6.2-canary.57bd81d"
-  resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.6.2-canary.57bd81d.tgz#a9fdb73e32bd47e7b20537105951293d267ab812"
-  integrity sha512-3U4UyJto6DxVjJ1kavITku+pK3peA8TGoRGIl7BW6L8KBV57MBDOjUWD8xNNpiOmeuNVko+qXf3cAH4rpboRBQ==
+axe-core@^4.6.2-canary.dc9feba:
+  version "4.6.2-canary.dc9feba"
+  resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.6.2-canary.dc9feba.tgz#77a7f3a981b29258f189bb827ed6ca22c5df249f"
+  integrity sha512-ahlTWD936Za1S4zRrHbW+7MKcSbchSm9nRR2i2mJYAqgEinUk7vLW+LumIMBcofEGpiG/Ef8AzmoLqXdyY0XNg==
 
 axios@^0.26.1:
   version "0.26.1"
