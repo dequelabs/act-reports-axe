@@ -10,8 +10,8 @@
     "untested": 0
   },
   "proposedRules": {
-    "complete": 14,
-    "partial": 10,
+    "complete": 12,
+    "partial": 12,
     "minimal": 8,
     "inconsistent": 16,
     "untested": 21
@@ -6137,7 +6137,10 @@
       "consistency": "partial",
       "accessibilityRequirements": {
         "correct": false,
-        "expected": [],
+        "expected": [
+          "WCAG2:info-and-relationships",
+          "WCAG2:name-role-value"
+        ],
         "reported": [
           "WCAG2:name-role-value"
         ]
@@ -6901,7 +6904,10 @@
       "consistency": "partial",
       "accessibilityRequirements": {
         "correct": false,
-        "expected": [],
+        "expected": [
+          "WCAG2:info-and-relationships",
+          "WCAG2:name-role-value"
+        ],
         "reported": [
           "WCAG2:name-role-value"
         ]
@@ -7165,7 +7171,10 @@
       "consistency": "partial",
       "accessibilityRequirements": {
         "correct": false,
-        "expected": [],
+        "expected": [
+          "WCAG2:info-and-relationships",
+          "WCAG2:name-role-value"
+        ],
         "reported": [
           "WCAG2:name-role-value"
         ]
@@ -14229,12 +14238,13 @@
       "procedureNames": [
         "meta-refresh-no-exceptions"
       ],
-      "consistency": "complete",
+      "consistency": "partial",
       "accessibilityRequirements": {
-        "correct": true,
+        "correct": false,
         "expected": [
           "WCAG2:interruptions",
-          "WCAG2:change-on-request"
+          "WCAG2:change-on-request",
+          "WCAG2:timing-adjustable"
         ],
         "reported": [
           "WCAG2:interruptions",
@@ -14476,7 +14486,8 @@
       "accessibilityRequirements": {
         "correct": false,
         "expected": [
-          "WCAG2:info-and-relationships"
+          "WCAG2:info-and-relationships",
+          "WCAG2:name-role-value"
         ],
         "reported": [
           "WCAG2:name-role-value"
@@ -14648,10 +14659,11 @@
       "procedureNames": [
         "aria-required-attr"
       ],
-      "consistency": "complete",
+      "consistency": "partial",
       "accessibilityRequirements": {
-        "correct": true,
+        "correct": false,
         "expected": [
+          "WCAG2:info-and-relationships",
           "WCAG2:name-role-value"
         ],
         "reported": [
@@ -16011,9 +16023,10 @@
       ],
       "consistency": "partial",
       "accessibilityRequirements": {
-        "correct": true,
+        "correct": false,
         "expected": [
-          "WCAG2:contrast-enhanced"
+          "WCAG2:contrast-enhanced",
+          "WCAG2:contrast-minimum"
         ],
         "reported": [
           "WCAG2:contrast-enhanced"
@@ -16057,9 +16070,9 @@
           ]
         },
         {
-          "testcaseId": "683924f835ab545a23a3625b0630e95bd0b50bca",
+          "testcaseId": "d011f0ef2a8d94ccf3d3d393a50d7fd8c576d3c3",
           "testCaseName": "Passed Example 3",
-          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/09o5cg/683924f835ab545a23a3625b0630e95bd0b50bca.html",
+          "testCaseUrl": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/09o5cg/d011f0ef2a8d94ccf3d3d393a50d7fd8c576d3c3.html",
           "testCaseApproved": false,
           "expected": "passed",
           "procedureResults": [
