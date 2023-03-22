@@ -141,7 +141,7 @@
             {
               "procedureName": "autocomplete-valid",
               "outcomes": [
-                "passed"
+                "inapplicable"
               ]
             }
           ]
@@ -7836,9 +7836,9 @@
         "reported": []
       },
       "coverage": {
-        "covered": 2,
+        "covered": 3,
         "untested": 0,
-        "cantTell": 6,
+        "cantTell": 5,
         "testCaseTotal": 8
       },
       "testCaseResults": [
@@ -7882,7 +7882,7 @@
             {
               "procedureName": "no-autoplay-audio",
               "outcomes": [
-                "cantTell"
+                "inapplicable"
               ]
             }
           ]
