@@ -11,9 +11,9 @@
   },
   "proposedRules": {
     "complete": 19,
-    "partial": 5,
+    "partial": 4,
     "minimal": 8,
-    "inconsistent": 8,
+    "inconsistent": 9,
     "untested": 26
   },
   "actRuleMapping": [
@@ -8645,18 +8645,16 @@
       "procedureNames": [
         "css-orientation-lock"
       ],
-      "consistency": "partial",
+      "consistency": null,
       "accessibilityRequirements": {
-        "correct": true,
+        "correct": false,
         "expected": [
           "WCAG2:orientation"
         ],
-        "reported": [
-          "WCAG2:orientation"
-        ]
+        "reported": []
       },
       "coverage": {
-        "covered": 10,
+        "covered": 7,
         "untested": 0,
         "cantTell": 1,
         "testCaseTotal": 12
@@ -8672,7 +8670,7 @@
             {
               "procedureName": "css-orientation-lock",
               "outcomes": [
-                "passed"
+                "inapplicable"
               ]
             }
           ]
@@ -8687,7 +8685,7 @@
             {
               "procedureName": "css-orientation-lock",
               "outcomes": [
-                "passed"
+                "inapplicable"
               ]
             }
           ]
@@ -8717,7 +8715,7 @@
             {
               "procedureName": "css-orientation-lock",
               "outcomes": [
-                "failed"
+                "inapplicable"
               ]
             }
           ]
@@ -8732,7 +8730,7 @@
             {
               "procedureName": "css-orientation-lock",
               "outcomes": [
-                "failed"
+                "inapplicable"
               ]
             }
           ]
@@ -8747,7 +8745,7 @@
             {
               "procedureName": "css-orientation-lock",
               "outcomes": [
-                "failed"
+                "inapplicable"
               ]
             }
           ]
@@ -8837,7 +8835,7 @@
             {
               "procedureName": "css-orientation-lock",
               "outcomes": [
-                "passed"
+                "inapplicable"
               ]
             }
           ]
