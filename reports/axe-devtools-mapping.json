@@ -3,15 +3,15 @@
   "name": "Axe DevTools Pro",
   "version": "latest",
   "approvedRules": {
-    "complete": 22,
-    "partial": 0,
+    "complete": 21,
+    "partial": 1,
     "minimal": 0,
     "inconsistent": 0,
     "untested": 0
   },
   "proposedRules": {
-    "complete": 19,
-    "partial": 4,
+    "complete": 18,
+    "partial": 5,
     "minimal": 8,
     "inconsistent": 9,
     "untested": 26
@@ -6058,7 +6058,7 @@
       "procedureNames": [
         "object-alt"
       ],
-      "consistency": "complete",
+      "consistency": "partial",
       "accessibilityRequirements": {
         "correct": true,
         "expected": [
@@ -6069,8 +6069,8 @@
         ]
       },
       "coverage": {
-        "covered": 18,
-        "untested": 0,
+        "covered": 14,
+        "untested": 4,
         "cantTell": 0,
         "testCaseTotal": 18
       },
@@ -6085,7 +6085,7 @@
             {
               "procedureName": "object-alt",
               "outcomes": [
-                "passed"
+                "untested"
               ]
             }
           ]
@@ -6190,7 +6190,7 @@
             {
               "procedureName": "object-alt",
               "outcomes": [
-                "failed"
+                "untested"
               ]
             }
           ]
@@ -6265,7 +6265,7 @@
             {
               "procedureName": "object-alt",
               "outcomes": [
-                "inapplicable"
+                "untested"
               ]
             }
           ]
@@ -6310,7 +6310,7 @@
             {
               "procedureName": "object-alt",
               "outcomes": [
-                "passed"
+                "untested"
               ]
             }
           ]
@@ -13948,7 +13948,7 @@
       "procedureNames": [
         "scrollable-region-focusable"
       ],
-      "consistency": "complete",
+      "consistency": "partial",
       "accessibilityRequirements": {
         "correct": true,
         "expected": [
@@ -13959,8 +13959,8 @@
         ]
       },
       "coverage": {
-        "covered": 10,
-        "untested": 0,
+        "covered": 9,
+        "untested": 1,
         "cantTell": 0,
         "testCaseTotal": 10
       },
@@ -14110,7 +14110,7 @@
             {
               "procedureName": "scrollable-region-focusable",
               "outcomes": [
-                "inapplicable"
+                "untested"
               ]
             }
           ]
