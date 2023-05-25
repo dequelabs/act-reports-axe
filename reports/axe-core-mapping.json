@@ -3,8 +3,8 @@
   "name": "Axe-core",
   "version": "latest",
   "approvedRules": {
-    "complete": 22,
-    "partial": 0,
+    "complete": 20,
+    "partial": 2,
     "minimal": 0,
     "inconsistent": 0,
     "untested": 0
@@ -66,7 +66,7 @@
             {
               "procedureName": "autocomplete-valid",
               "outcomes": [
-                "passed"
+                "inapplicable"
               ]
             }
           ]
@@ -834,7 +834,7 @@
             {
               "procedureName": "button-name",
               "outcomes": [
-                "passed"
+                "inapplicable"
               ]
             },
             {
@@ -854,7 +854,7 @@
       "procedureNames": [
         "valid-lang"
       ],
-      "consistency": "complete",
+      "consistency": "partial",
       "accessibilityRequirements": {
         "correct": true,
         "expected": [
@@ -865,7 +865,7 @@
         ]
       },
       "coverage": {
-        "covered": 19,
+        "covered": 17,
         "untested": 0,
         "cantTell": 0,
         "testCaseTotal": 19
@@ -972,7 +972,7 @@
             {
               "procedureName": "valid-lang",
               "outcomes": [
-                "failed"
+                "inapplicable"
               ]
             }
           ]
@@ -1017,7 +1017,7 @@
             {
               "procedureName": "valid-lang",
               "outcomes": [
-                "failed"
+                "inapplicable"
               ]
             }
           ]
@@ -1250,7 +1250,7 @@
             {
               "procedureName": "presentation-role-conflict",
               "outcomes": [
-                "passed"
+                "inapplicable"
               ]
             }
           ]
@@ -1503,7 +1503,7 @@
             {
               "procedureName": "aria-input-field-name",
               "outcomes": [
-                "passed"
+                "inapplicable"
               ]
             },
             {
@@ -2249,7 +2249,7 @@
       "procedureNames": [
         "html-xml-lang-mismatch"
       ],
-      "consistency": "complete",
+      "consistency": "partial",
       "accessibilityRequirements": {
         "correct": true,
         "expected": [
@@ -2260,7 +2260,7 @@
         ]
       },
       "coverage": {
-        "covered": 12,
+        "covered": 11,
         "untested": 0,
         "cantTell": 0,
         "testCaseTotal": 12
@@ -2321,7 +2321,7 @@
             {
               "procedureName": "html-xml-lang-mismatch",
               "outcomes": [
-                "failed"
+                "inapplicable"
               ]
             }
           ]
@@ -2690,7 +2690,7 @@
             {
               "procedureName": "input-image-alt",
               "outcomes": [
-                "passed"
+                "inapplicable"
               ]
             }
           ]
@@ -2966,7 +2966,7 @@
             {
               "procedureName": "image-alt",
               "outcomes": [
-                "passed"
+                "inapplicable"
               ]
             },
             {
