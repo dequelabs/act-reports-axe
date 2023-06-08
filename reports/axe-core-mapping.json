@@ -10,8 +10,8 @@
     "untested": 0
   },
   "proposedRules": {
-    "complete": 16,
-    "partial": 1,
+    "complete": 15,
+    "partial": 2,
     "minimal": 8,
     "inconsistent": 5,
     "untested": 36
@@ -11890,7 +11890,7 @@
       "procedureNames": [
         "scrollable-region-focusable"
       ],
-      "consistency": "complete",
+      "consistency": "partial",
       "accessibilityRequirements": {
         "correct": true,
         "expected": [
@@ -11901,8 +11901,8 @@
         ]
       },
       "coverage": {
-        "covered": 10,
-        "untested": 0,
+        "covered": 9,
+        "untested": 1,
         "cantTell": 0,
         "testCaseTotal": 10
       },
@@ -12052,7 +12052,7 @@
             {
               "procedureName": "scrollable-region-focusable",
               "outcomes": [
-                "inapplicable"
+                "untested"
               ]
             }
           ]
