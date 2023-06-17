@@ -12,8 +12,8 @@
   "proposedRules": {
     "complete": 20,
     "partial": 3,
-    "minimal": 7,
-    "inconsistent": 10,
+    "minimal": 8,
+    "inconsistent": 9,
     "untested": 26
   },
   "actRuleMapping": [
@@ -10940,7 +10940,7 @@
       "procedureNames": [
         "frame-title-unique"
       ],
-      "consistency": null,
+      "consistency": "minimal",
       "accessibilityRequirements": {
         "correct": false,
         "expected": [
@@ -10949,8 +10949,8 @@
         "reported": []
       },
       "coverage": {
-        "covered": 10,
-        "untested": 1,
+        "covered": 11,
+        "untested": 0,
         "cantTell": 10,
         "testCaseTotal": 23
       },
@@ -11216,7 +11216,7 @@
             {
               "procedureName": "frame-title-unique",
               "outcomes": [
-                "untested"
+                "inapplicable"
               ]
             }
           ]
