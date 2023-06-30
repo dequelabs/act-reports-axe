@@ -3536,8 +3536,8 @@
           "WCAG2:link-purpose-in-context"
         ],
         "reported": [
-          "WCAG2:name-role-value",
-          "WCAG2:link-purpose-in-context"
+          "WCAG2:link-purpose-in-context",
+          "WCAG2:name-role-value"
         ]
       },
       "coverage": {
