@@ -10,9 +10,9 @@
     "untested": 0
   },
   "proposedRules": {
-    "complete": 16,
+    "complete": 15,
     "partial": 1,
-    "minimal": 8,
+    "minimal": 9,
     "inconsistent": 5,
     "untested": 36
   },
@@ -9719,20 +9719,18 @@
       "procedureNames": [
         "duplicate-id-aria"
       ],
-      "consistency": "complete",
+      "consistency": "minimal",
       "accessibilityRequirements": {
-        "correct": true,
+        "correct": false,
         "expected": [
           "WCAG2:parsing"
         ],
-        "reported": [
-          "WCAG2:parsing"
-        ]
+        "reported": []
       },
       "coverage": {
-        "covered": 10,
+        "covered": 7,
         "untested": 0,
-        "cantTell": 0,
+        "cantTell": 3,
         "testCaseTotal": 10
       },
       "testCaseResults": [
@@ -9806,7 +9804,7 @@
             {
               "procedureName": "duplicate-id-aria",
               "outcomes": [
-                "failed"
+                "cantTell"
               ]
             }
           ]
@@ -9821,7 +9819,7 @@
             {
               "procedureName": "duplicate-id-aria",
               "outcomes": [
-                "failed"
+                "cantTell"
               ]
             }
           ]
@@ -9836,7 +9834,7 @@
             {
               "procedureName": "duplicate-id-aria",
               "outcomes": [
-                "failed"
+                "cantTell"
               ]
             }
           ]
