@@ -10,8 +10,8 @@
     "untested": 0
   },
   "proposedRules": {
-    "complete": 18,
-    "partial": 4,
+    "complete": 19,
+    "partial": 3,
     "minimal": 9,
     "inconsistent": 9,
     "untested": 27
@@ -11054,8 +11054,8 @@
       },
       "coverage": {
         "covered": 11,
-        "untested": 1,
-        "cantTell": 9,
+        "untested": 0,
+        "cantTell": 10,
         "testCaseTotal": 23
       },
       "testCaseResults": [
@@ -11069,7 +11069,8 @@
             {
               "procedureName": "frame-title-unique",
               "outcomes": [
-                "untested"
+                "cantTell",
+                "cantTell"
               ]
             }
           ]
@@ -14021,7 +14022,7 @@
       "procedureNames": [
         "scrollable-region-focusable"
       ],
-      "consistency": "partial",
+      "consistency": "complete",
       "accessibilityRequirements": {
         "correct": true,
         "expected": [
@@ -14032,8 +14033,8 @@
         ]
       },
       "coverage": {
-        "covered": 9,
-        "untested": 1,
+        "covered": 10,
+        "untested": 0,
         "cantTell": 0,
         "testCaseTotal": 10
       },
@@ -14183,7 +14184,7 @@
             {
               "procedureName": "scrollable-region-focusable",
               "outcomes": [
-                "untested"
+                "inapplicable"
               ]
             }
           ]
