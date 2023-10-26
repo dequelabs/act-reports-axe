@@ -21,7 +21,7 @@
     "@types/node": "^17.0.22",
     "@types/puppeteer": "^5.4.5",
     "act-tools": "act-rules/act-tools",
-    "axe-core": "^4.8.2-canary.953812b",
+    "axe-core": "^4.8.2-canary.4ea45e9",
     "axios": "^0.26.1",
     "fs-extra": "^10.0.1",
     "jest": "^27.5.1",
