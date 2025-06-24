@@ -1,8 +1,10 @@
 import { Config, EarlReport } from "../../types";
-import { runTestsInPage } from "../runTestsInPage"
+import { runTestsInPage, startPuppeteer, stopPuppeteer } from "../runTestsInPage"
+import { Browser, Page } from "puppeteer";
 
 describe("runTestsInPage", () => {
-  let teardown: () => Promise<void>;
+  let page: Page;
+  let browser: Browser;
 
   const emptyReport: EarlReport = {
     "@context": {},
@@ -14,9 +16,17 @@ describe("runTestsInPage", () => {
     outFile: '.tmp/outfile.json'
   };
 
+  beforeAll(async () => {
+    ({ page, browser } = await startPuppeteer());
+  });
+
+  afterAll(async () => {
+    await stopPuppeteer(page, browser);
+  });
+
   test("calls the callback", async () => {
     let count = 0;
-    await runTestsInPage(options, async () => {
+    await runTestsInPage(page, options, async () => {
       count++;
       return emptyReport;
     });
@@ -24,7 +34,7 @@ describe("runTestsInPage", () => {
   });
 
   test("passes a page to the callback", async () => {
-    await runTestsInPage(options, async page => {
+    await runTestsInPage(page, options, async page => {
       expect(page).toHaveProperty("goto");
       expect(page).toHaveProperty("$eval");
       return emptyReport;
@@ -32,7 +42,7 @@ describe("runTestsInPage", () => {
   });
 
   test("passes a test case to the callback", async () => {
-    await runTestsInPage(options, async (_, testcase) => {
+    await runTestsInPage(page, options, async (_, testcase) => {
       expect(testcase).toHaveProperty("url");
       expect(testcase).toHaveProperty("ruleSuccessCriterion");
       expect(testcase).toHaveProperty("ruleId");
