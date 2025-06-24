@@ -16,8 +16,8 @@ export async function runTestsInPage(config: Config, toolRunner: ToolRunner): Pr
 
 async function startPuppeteer(): Promise<{page: Page, browser: Browser}> {
   const browser = await puppeteer.launch({
-    headless: true,
     args: [
+      "--headless=new",
       '--no-sandbox',
       '--disable-setuid-sandbox',
       '--disable-dev-shm-usage',
