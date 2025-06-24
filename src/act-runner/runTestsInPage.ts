@@ -17,12 +17,13 @@ export async function runTestsInPage(config: Config, toolRunner: ToolRunner): Pr
 async function startPuppeteer(): Promise<{page: Page, browser: Browser}> {
   const browser = await puppeteer.launch({
     args: [
-      "--headless=new",
+      '--headless=new',
       '--no-sandbox',
       '--disable-setuid-sandbox',
       '--disable-dev-shm-usage',
       '--disable-gpu',
-      '--single-process'
+      '--single-process',
+      '--no-zygote'
     ],
   });
   const page = await browser.newPage();
