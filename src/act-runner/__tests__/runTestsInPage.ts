@@ -1,5 +1,4 @@
 import { Config, EarlReport } from "../../types";
-import { setup } from '../../__test-utils__/utils';
 import { runTestsInPage } from "../runTestsInPage"
 
 describe("runTestsInPage", () => {
@@ -14,14 +13,6 @@ describe("runTestsInPage", () => {
     ruleId: `73f2c2`,
     outFile: '.tmp/outfile.json'
   };
-
-  beforeAll(async () => {
-    teardown = (await setup()).teardown;
-  });
-
-  afterAll(async () => {
-    await teardown();
-  });
 
   test("calls the callback", async () => {
     let count = 0;
