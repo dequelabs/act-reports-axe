@@ -11,11 +11,20 @@ export const setup = async (): Promise<{
   teardown: () => Promise<void>
 }> => {
   const browser = await puppeteer.launch({
-    args: ["--single-process"]
+        args: [
+      '--headless=new',
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',
+      '--disable-gpu',
+      '--single-process',
+      '--no-zygote',
+      '--single-process'
+    ],
   });
   const page = await browser.newPage();
   await page.setBypassCSP(true);
-  
+
   const teardown = async (): Promise<void> => {
     await page.close();
     await browser.close();
