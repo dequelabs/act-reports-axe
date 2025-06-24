@@ -80,7 +80,7 @@ export const axeRunTestCase: ToolRunner = async (
         };
         const axeRunner = new AxePuppeteer(page, axeSource)
 
-        // @ts-ignore
+        // @ts-ignore-next-line
         axeRunner.options(options);
         raw = (await axeRunner.analyze() as unknown as RawResult[])
       }
