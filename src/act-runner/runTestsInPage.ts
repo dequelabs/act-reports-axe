@@ -11,18 +11,18 @@ export async function runTestsInPage(page: Page, config: Config, toolRunner: Too
   return concatReport(testResults);
 }
 
-export async function startPuppeteer(): Promise<{page: Page, browser: Browser}> {
-  const browser = await puppeteer.launch({
-    args: [
+export async function startPuppeteer(singleProcess?: boolean): Promise<{page: Page, browser: Browser}> {
+  const defaultArgs = [
       '--headless=new',
       '--no-sandbox',
-      '--disable-setuid-sandbox',
-      '--disable-dev-shm-usage',
-      '--disable-gpu',
+      '--disable-setuid-sandbox'
+  ];
+  const args = singleProcess ?
+    [
+      ...defaultArgs,
       '--single-process',
-      '--no-zygote'
-    ],
-  });
+    ] : defaultArgs;
+  const browser = await puppeteer.launch({ args });
   const page = await browser.newPage();
   await page.setBypassCSP(true);
   await page.setRequestInterception(true);

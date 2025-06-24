@@ -17,7 +17,7 @@ describe("runTestsInPage", () => {
   };
 
   beforeAll(async () => {
-    ({ page, browser } = await startPuppeteer());
+    ({ page, browser } = await startPuppeteer(true));
   });
 
   afterAll(async () => {
