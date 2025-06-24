@@ -17,12 +17,7 @@ describe("runTestsInPage", () => {
   };
 
   beforeAll(async () => {
-    try {
-      ({ page, browser } = await startPuppeteer());
-    } catch (error) {
-      console.error("Failed to start Puppeteer:", error);
-      throw error;
-    }
+    ({ page, browser } = await startPuppeteer());
   });
 
   afterAll(async () => {

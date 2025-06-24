@@ -11,11 +11,9 @@ const config: Config = {
 }
 
 async function main() {
-  // Start Puppeteer and get page and browser instances
   const { page, browser } = await startPuppeteer();
 
   try {
-    // Run tests with the page instance
     const earlResults = await runTestsInPage(page, config, axeRunTestCase);
     const filepath = path.resolve(config.outFile);
     await ensureFile(filepath);
@@ -23,7 +21,6 @@ async function main() {
 
     console.log(`Created axe-core implementation report at "${config.outFile}"`);
   } finally {
-    // Make sure to clean up resources
     await stopPuppeteer(page, browser);
   }
 }
