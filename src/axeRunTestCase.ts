@@ -49,7 +49,7 @@ export const axeRunTestCase: ToolRunner = async (
 
   // if given page is of type `html`, ensure it loaded
   if (extn === `html`) {
-    const html = await page.$eval<string>("html", e => e.outerHTML) as unknown as string;
+    const html = await page.$eval("html", e => e.outerHTML) as unknown as string;
     if (html.includes("Not Found")) {
       console.log(`Not Found ${url}`);
       return earlUntested(env);
@@ -79,7 +79,9 @@ export const axeRunTestCase: ToolRunner = async (
           ...rulesAxeOptions[ruleId]
         };
         const axeRunner = new AxePuppeteer(page, axeSource)
-        axeRunner.options(options)
+
+        // @ts-ignore-next-line
+        axeRunner.options(options);
         raw = (await axeRunner.analyze() as unknown as RawResult[])
       }
       return axeReporterEarl(raw, env);

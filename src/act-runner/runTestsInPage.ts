@@ -4,18 +4,25 @@ import { concatReport } from '../axe-reporter-earl/axeReporterEarl';
 import { Config, ToolRunner, TestCase, EarlReport } from '../types';
 import Axios from 'axios'
 
-export async function runTestsInPage(config: Config, toolRunner: ToolRunner): Promise<EarlReport> {
-  const { page, browser } = await startPuppeteer();
+export async function runTestsInPage(page: Page, config: Config, toolRunner: ToolRunner): Promise<EarlReport> {
   const testResults = await runTestCases(config, (testCase: TestCase): Promise<EarlReport | void> => {
     return toolRunner(page, testCase);
   });
-
-  await stopPuppeteer(page, browser);
   return concatReport(testResults);
 }
 
-async function startPuppeteer(): Promise<{page: Page, browser: Browser}> {
-  const browser = await puppeteer.launch();
+export async function startPuppeteer(singleProcess?: boolean): Promise<{page: Page, browser: Browser}> {
+  const defaultArgs = [
+      '--headless=new',
+      '--no-sandbox',
+      '--disable-setuid-sandbox'
+  ];
+  const args = singleProcess ?
+    [
+      ...defaultArgs,
+      '--single-process',
+    ] : defaultArgs;
+  const browser = await puppeteer.launch({ args });
   const page = await browser.newPage();
   await page.setBypassCSP(true);
   await page.setRequestInterception(true);
@@ -40,11 +47,11 @@ async function startPuppeteer(): Promise<{page: Page, browser: Browser}> {
       request.continue();
     }
   });
-  
+
   return { page, browser };
 }
 
-async function stopPuppeteer(page: Page, browser: Browser) {
+export async function stopPuppeteer(page: Page, browser: Browser) {
   await page.close();
   await browser.close();
 }
