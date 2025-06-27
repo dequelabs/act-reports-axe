@@ -1297,10 +1297,10 @@ aws4@^1.8.0:
   resolved "https://registry.npmjs.org/aws4/-/aws4-1.11.0.tgz"
   integrity sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==
 
-axe-core@^4.10.3-canary.51d2ac4:
-  version "4.10.3-canary.51d2ac4"
-  resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.10.3-canary.51d2ac4.tgz#a29721bb6426d8405a7f54522b894e4118013dd0"
-  integrity sha512-48XxAhtUScVVdjH/Vp7I3Kr6E4wX4qpWsJpVp6YzDTEToF1E02GX8I1jv4iUYtEuQnjcqH/aXimSASRpZ+0JVw==
+axe-core@^4.10.3-canary.01c2c02:
+  version "4.10.3-canary.01c2c02"
+  resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.10.3-canary.01c2c02.tgz#62b937a673289f9c65853325e662eaf2cd14cbfc"
+  integrity sha512-nEz+ReXQgTT7LU9hLR3R1XTh9UvJ6WQrl8sxeynxGLrVNVYW7PsfONEQIqGJu8Eqnf8PeYUe91g62MLfLgxb9w==
 
 axe-core@^4.4.3:
   version "4.4.3"
