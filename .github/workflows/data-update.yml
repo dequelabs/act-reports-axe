@@ -28,4 +28,4 @@ jobs:
       - run: git add reports/. package.json yarn.lock
       # Commit if there's anything staged
       - run: git diff-index --quiet HEAD || git commit -m "Daily update of axe ACT reports" --no-verify
-      - run: git push
+      - run: git push origin HEAD:act-reports-axe
