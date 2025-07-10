@@ -13055,7 +13055,7 @@
             {
               "procedureName": "frame-title",
               "outcomes": [
-                "inapplicable"
+                "passed"
               ]
             }
           ]
@@ -13114,9 +13114,9 @@
         "reported": []
       },
       "coverage": {
-        "covered": 11,
+        "covered": 10,
         "untested": 0,
-        "cantTell": 10,
+        "cantTell": 11,
         "testCaseTotal": 21
       },
       "testCaseResults": [
@@ -13130,7 +13130,7 @@
             {
               "procedureName": "identical-links-same-purpose",
               "outcomes": [
-                "inapplicable"
+                "passed"
               ]
             }
           ]
@@ -13145,7 +13145,7 @@
             {
               "procedureName": "identical-links-same-purpose",
               "outcomes": [
-                "inapplicable"
+                "cantTell"
               ]
             }
           ]
@@ -13160,7 +13160,7 @@
             {
               "procedureName": "identical-links-same-purpose",
               "outcomes": [
-                "inapplicable"
+                "passed"
               ]
             }
           ]

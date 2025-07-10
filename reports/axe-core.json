@@ -27403,7 +27403,7 @@
       "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.10.3-canary.237a586",
       "result": {
         "@type": "TestResult",
-        "outcome": "earl:inapplicable"
+        "outcome": "earl:passed"
       },
       "test": {
         "@type": "TestCase",
@@ -28371,7 +28371,7 @@
       "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.10.3-canary.237a586",
       "result": {
         "@type": "TestResult",
-        "outcome": "earl:inapplicable"
+        "outcome": "earl:passed"
       },
       "test": {
         "@type": "TestCase",
@@ -28395,7 +28395,7 @@
       "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.10.3-canary.237a586",
       "result": {
         "@type": "TestResult",
-        "outcome": "earl:inapplicable"
+        "outcome": "earl:cantTell"
       },
       "test": {
         "@type": "TestCase",
@@ -28419,7 +28419,7 @@
       "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.10.3-canary.237a586",
       "result": {
         "@type": "TestResult",
-        "outcome": "earl:inapplicable"
+        "outcome": "earl:passed"
       },
       "test": {
         "@type": "TestCase",
