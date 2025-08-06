@@ -1657,7 +1657,7 @@
         ]
       },
       "coverage": {
-        "covered": 17,
+        "covered": 16,
         "untested": 0,
         "cantTell": 0,
         "testCaseTotal": 19
@@ -1733,7 +1733,8 @@
             {
               "procedureName": "avoid-inline-spacing",
               "outcomes": [
-                "inapplicable"
+                "passed",
+                "failed"
               ]
             }
           ]

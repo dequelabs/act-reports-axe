@@ -2837,7 +2837,31 @@
       "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.10.3-canary.d7dfebc",
       "result": {
         "@type": "TestResult",
-        "outcome": "earl:inapplicable"
+        "outcome": "earl:passed"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "avoid-inline-spacing",
+        "@id": "https://dequeuniversity.com/rules/axe/4.10/avoid-inline-spacing?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:text-spacing"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/9e45ec/15905a239d6755102be6a60aa152ad963d5b1dbb.html"
+      },
+      "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.10.3-canary.d7dfebc",
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
       },
       "test": {
         "@type": "TestCase",
