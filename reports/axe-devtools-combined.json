@@ -3274,512 +3274,6 @@
           "earl:TestSubject",
           "sch:WebPage"
         ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/674b10/c181f7267bf9f4fc0f9ad9e2a69c1ad7da504f4d.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-deprecated-role",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-deprecated-role?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/674b10/c181f7267bf9f4fc0f9ad9e2a69c1ad7da504f4d.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-roles",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-roles?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/674b10/9980fd3a6f30b20069618708b2c8fa79d444e0a4.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-deprecated-role",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-deprecated-role?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/674b10/9980fd3a6f30b20069618708b2c8fa79d444e0a4.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-roles",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-roles?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/674b10/8ee31c22ec3fa0bccf46e3f44e9a5d8e752bc776.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-deprecated-role",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-deprecated-role?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/674b10/8ee31c22ec3fa0bccf46e3f44e9a5d8e752bc776.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-roles",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-roles?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/674b10/4b0aaf07c6e9fb6ea3495dd9cecf55d47b9539b8.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-deprecated-role",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-deprecated-role?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/674b10/4b0aaf07c6e9fb6ea3495dd9cecf55d47b9539b8.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-roles",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-roles?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/674b10/527c265ba570f0131dddef3687981b66f6dd156f.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-deprecated-role",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-deprecated-role?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/674b10/527c265ba570f0131dddef3687981b66f6dd156f.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-roles",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-roles?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/674b10/ebd0080bacb8debc7ad069072240657df38c3e2c.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:inapplicable"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-deprecated-role",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-deprecated-role?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/674b10/ebd0080bacb8debc7ad069072240657df38c3e2c.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:inapplicable"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-roles",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-roles?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/674b10/98f200a9611571fd8db46027c8d28616d94083c8.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:inapplicable"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-deprecated-role",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-deprecated-role?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/674b10/98f200a9611571fd8db46027c8d28616d94083c8.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:inapplicable"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-roles",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-roles?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/674b10/8f409b57b31bce96b6f256d0fa9cfabcd0b984ca.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:inapplicable"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-deprecated-role",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-deprecated-role?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/674b10/8f409b57b31bce96b6f256d0fa9cfabcd0b984ca.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:inapplicable"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-roles",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-roles?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/674b10/0b8e3a6fb2bfd495683f686cf99ea1e46f2074ed.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:inapplicable"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-deprecated-role",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-deprecated-role?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/674b10/0b8e3a6fb2bfd495683f686cf99ea1e46f2074ed.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:inapplicable"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-roles",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-roles?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/674b10/575a5e323abe810450d5ff443a5fd614dae12257.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:inapplicable"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-deprecated-role",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-deprecated-role?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/674b10/575a5e323abe810450d5ff443a5fd614dae12257.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:inapplicable"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-roles",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-roles?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/674b10/351e4bd097e4e1217d64a6c32ae09987c8d4db4a.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:inapplicable"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-deprecated-role",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-deprecated-role?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/674b10/351e4bd097e4e1217d64a6c32ae09987c8d4db4a.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:inapplicable"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-roles",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-roles?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
         "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/6a7281/e970b77c1137e5fd4627f70663da4d1fcda36b23.html"
       },
       "result": {
@@ -4250,6 +3744,190 @@
         "@type": "TestCase",
         "title": "aria-valid-attr-value",
         "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-valid-attr-value?application=axeAPI"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/5f99a7/261dcd3214e87532fc2f9c8db7fdce05de9e07f0.html"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "aria-valid-attr",
+        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-valid-attr?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:name-role-value"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/5f99a7/31ac49fcb186ee2a233355494fc5e774212ca3d7.html"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "aria-valid-attr",
+        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-valid-attr?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:name-role-value"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/5f99a7/3314945d4bbec5b34f9a3c2d90da7cb9f8e7ce5a.html"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "aria-valid-attr",
+        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-valid-attr?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:name-role-value"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/5f99a7/830f50dcf51acb0b97b948000d7c163e50858312.html"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "aria-valid-attr",
+        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-valid-attr?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:name-role-value"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/5f99a7/e145aafac5f00cabc7cb3d65a32f7fdb5ec1484d.html"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "aria-valid-attr",
+        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-valid-attr?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:name-role-value"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/5f99a7/b6acf7c4aab0cfdc9f996abc7961790cbc97f39e.html"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "aria-valid-attr",
+        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-valid-attr?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:name-role-value"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/5f99a7/d528a33258103014c0a03cf1e418ee0620f7b4f6.html"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:inapplicable"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "aria-valid-attr",
+        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-valid-attr?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:name-role-value"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/5f99a7/287a72860814f903d561dc3e7765f507ca041624.html"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "aria-valid-attr",
+        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-valid-attr?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:name-role-value"
+        ]
       }
     },
     {
