@@ -21361,6 +21361,141 @@
           "earl:TestSubject",
           "sch:WebPage"
         ],
+        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/kb1m8s/f5ec91369a85c8873996b82a4c5151c65a7d2204.html"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:untested"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/kb1m8s/ae9e9709911eaa328189f8ab354cba0bb840a6c9.html"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:untested"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/kb1m8s/8cf721f0f9490be4e2909caaa944cf3a32a43fc0.html"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:untested"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/kb1m8s/17a785ed25669522866f98997f76d69150243c8b.html"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:untested"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/kb1m8s/358fa0b821c3118de63adfbe37bd0e85a3bd6f8c.html"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:untested"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/kb1m8s/1345bf067f66f2ee893f75e43d72121a0119d6b1.html"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:untested"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/kb1m8s/7cddc927da518cc9b170051a9010e256068c875b.html"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:untested"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/kb1m8s/c4a2fe12d5a48f7ace66475d3791e051ddefa807.html"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:untested"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/kb1m8s/c33e521a7914c6dc8bde272dcc8e090b7463473c.html"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:untested"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
         "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/ff89c9/3ae3bc1c993acb6baaad2811cbd6139a8093361c.html"
       },
       "result": {
@@ -24054,144 +24189,6 @@
       "result": {
         "@type": "TestResult",
         "outcome": "earl:passed"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-prohibited-attr",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-prohibited-attr?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/5c01ea/d7efe21b64461052aef8d3e0fc96049dda787039.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-allowed-attr",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-allowed-attr?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/5c01ea/d7efe21b64461052aef8d3e0fc96049dda787039.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-conditional-attr",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-conditional-attr?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/5c01ea/d7efe21b64461052aef8d3e0fc96049dda787039.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-prohibited-attr",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-prohibited-attr?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/5c01ea/eedabccf6e01bca36ee87a2af00e9d7a63a7d615.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-allowed-attr",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-allowed-attr?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/5c01ea/eedabccf6e01bca36ee87a2af00e9d7a63a7d615.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:passed"
-      },
-      "test": {
-        "@type": "TestCase",
-        "title": "aria-conditional-attr",
-        "@id": "https://dequeuniversity.com/rules/axe/4.11/aria-conditional-attr?application=axeAPI",
-        "isPartOf": [
-          "WCAG2:name-role-value"
-        ]
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/5c01ea/eedabccf6e01bca36ee87a2af00e9d7a63a7d615.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:failed"
       },
       "test": {
         "@type": "TestCase",
@@ -33202,21 +33199,6 @@
           "sch:WebPage"
         ],
         "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/ee13b5/5ed3a98f771c2069c1d4581ff5f85cc38d9b5ec0.html"
-      },
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:untested"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/ee13b5/e6ef6ab47c239fc0abcd3ccb7ac8ddbfa6aa6d53.html"
       },
       "result": {
         "@type": "TestResult",
