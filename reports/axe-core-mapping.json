@@ -3,8 +3,8 @@
   "name": "Axe-core",
   "version": "latest",
   "approvedRules": {
-    "complete": 29,
-    "partial": 0,
+    "complete": 28,
+    "partial": 1,
     "minimal": 0,
     "inconsistent": 3,
     "untested": 5
@@ -5591,7 +5591,7 @@
       "procedureNames": [
         "svg-img-alt"
       ],
-      "consistency": "complete",
+      "consistency": "partial",
       "accessibilityRequirements": {
         "correct": true,
         "expected": [
@@ -5602,7 +5602,7 @@
         ]
       },
       "coverage": {
-        "covered": 10,
+        "covered": 9,
         "untested": 0,
         "cantTell": 0,
         "testCaseTotal": 10
@@ -5693,7 +5693,7 @@
             {
               "procedureName": "svg-img-alt",
               "outcomes": [
-                "failed"
+                "inapplicable"
               ]
             }
           ]

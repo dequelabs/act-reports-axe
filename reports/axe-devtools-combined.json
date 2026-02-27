@@ -14246,7 +14246,7 @@
       },
       "result": {
         "@type": "TestResult",
-        "outcome": "earl:failed"
+        "outcome": "earl:inapplicable"
       },
       "test": {
         "@type": "TestCase",

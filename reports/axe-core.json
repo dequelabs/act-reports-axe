@@ -11479,7 +11479,7 @@
       "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.11.1",
       "result": {
         "@type": "TestResult",
-        "outcome": "earl:failed"
+        "outcome": "earl:inapplicable"
       },
       "test": {
         "@type": "TestCase",
