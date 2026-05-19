@@ -26675,38 +26675,6 @@
           "earl:TestSubject",
           "sch:WebPage"
         ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/b49b2e/b67b5eda7529c918280b442609e5b7d59c57317b.html"
-      },
-      "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.11.4",
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:untested"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
-        "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/b49b2e/26d71f03f10bc14b28212699eddafe17adafc6b8.html"
-      },
-      "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.11.4",
-      "result": {
-        "@type": "TestResult",
-        "outcome": "earl:untested"
-      }
-    },
-    {
-      "@type": "Assertion",
-      "mode": "earl:automatic",
-      "subject": {
-        "@type": [
-          "earl:TestSubject",
-          "sch:WebPage"
-        ],
         "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/ffd0e9/0ac909cfd0a0200a97cca3107011fe1e1c08ecc8.html"
       },
       "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.11.4",
