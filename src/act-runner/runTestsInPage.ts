@@ -1,14 +1,18 @@
 import puppeteer, { Page, Browser } from 'puppeteer';
 import { runTestCases } from './runTestCases';
 import { concatReport } from '../axe-reporter-earl/axeReporterEarl';
-import { Config, ToolRunner, TestCase, EarlReport } from '../types';
+import { Config, ToolRunner, TestCase, EarlReport, Assertion, Assertor } from '../types';
 import Axios from 'axios'
 
-export async function runTestsInPage(page: Page, config: Config, toolRunner: ToolRunner): Promise<EarlReport> {
+export async function runTestsInPage(
+  page: Page,
+  config: Config,
+  toolRunner: ToolRunner
+): Promise<EarlReport<Assertion | Assertor>> {
   const testResults = await runTestCases(config, (testCase: TestCase): Promise<EarlReport | void> => {
     return toolRunner(page, testCase);
   });
-  return concatReport(testResults);
+  return concatReport(testResults, config.assertor);
 }
 
 export async function startPuppeteer(singleProcess?: boolean): Promise<{page: Page, browser: Browser}> {

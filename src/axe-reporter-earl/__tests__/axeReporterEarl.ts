@@ -1,7 +1,7 @@
 import axeReporterEarl, { earlUntested, concatReport } from "../axeReporterEarl";
 import context from '../context';
 import raw from '../../__test-utils__/data/raw-results-73f2c2.json';
-import { Env, RawResult } from "../../types";
+import { Assertor, Env, RawResult } from "../../types";
 import 'jest-extended';
 
 const rawResults = raw as unknown as RawResult[][]
@@ -96,15 +96,25 @@ describe(`axe-reporter-earl`, () => {
   });
 
   describe(`concatReport fn`, () => {
+    const assertor: Assertor = {
+      "@id": "https://github.com/dequelabs/axe-core/releases/tag/4.10.3",
+      "@type": "Assertor",
+      name: "axe-core",
+      release: {
+        "@type": "Version",
+        revision: "4.10.3"
+      }
+    };
+
     test(`get concatanated report`, () => {
       const env: Env = { version: "100.200.999", url: '' };
       const result1 = axeReporterEarl(rawResults[0], env);
       const result2 = axeReporterEarl(rawResults[1], env);
 
       const report = [result1, result2];
-      const actual = concatReport(report);
+      const actual = concatReport(report, assertor);
 
-      expect(actual["@graph"].length).toBe(2);
+      expect(actual["@graph"].length).toBe(3);
       expect(JSON.stringify(actual["@context"])).toEqual(
         JSON.stringify(context)
       );
@@ -115,6 +125,7 @@ describe(`axe-reporter-earl`, () => {
       expect(JSON.stringify(actual["@graph"][1])).toEqual(
         JSON.stringify(result2["@graph"][0])
       );
+      expect(actual["@graph"][2]).toEqual(assertor);
     });
   });
 });

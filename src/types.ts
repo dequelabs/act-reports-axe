@@ -6,6 +6,7 @@ export type Config = {
   testCaseJson: string
   ruleId?: string
   outFile: string
+  assertor?: Assertor
 }
 
 export type PageRunner = () => Promise<void>
@@ -57,7 +58,17 @@ export type Assertion = {
   };
 }
 
-export type EarlReport = {
+export type Assertor = {
+  "@id": string
+  "@type": "Assertor"
+  name: string
+  release: {
+    "@type": "Version"
+    revision: string
+  }
+}
+
+export type EarlReport<T = Assertion> = {
   "@context": Object
-  "@graph": Assertion[]
+  "@graph": T[]
 }
