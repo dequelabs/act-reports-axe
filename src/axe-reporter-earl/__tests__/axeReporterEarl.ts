@@ -127,5 +127,13 @@ describe(`axe-reporter-earl`, () => {
       );
       expect(actual["@graph"][2]).toEqual(assertor);
     });
+
+    test(`omits the assertor when none is given`, () => {
+      const env: Env = { version: "100.200.999", url: '' };
+      const result1 = axeReporterEarl(rawResults[0], env);
+      const actual = concatReport([result1]);
+
+      expect(actual["@graph"]).toEqual(result1["@graph"]);
+    });
   });
 });

@@ -341,6 +341,14 @@
     ky "^0.25.1"
     ky-universal "^0.8.2"
 
+"@digitalbazaar/http-client@^4.2.0":
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/@digitalbazaar/http-client/-/http-client-4.4.0.tgz#fb3d6052b4c180c81db789ea7de6e1697a2e3cf6"
+  integrity sha512-ODhCGmElUPmR3IR+KZmBNkRAFyjJ01rxvk2E+/qQ2h2EGPJH5k6bz3N24ympGc5+i4YCGk/ipIpmkwc0+iSmRg==
+  dependencies:
+    ky "^1.14.3"
+    undici "^6.28.0"
+
 "@emnapi/core@^1.4.3":
   version "1.4.3"
   resolved "https://registry.yarnpkg.com/@emnapi/core/-/core-1.4.3.tgz#9ac52d2d5aea958f67e52c40a065f51de59b77d6"
@@ -911,6 +919,11 @@
   integrity sha512-D5qGUYwjvnNNextdU59/+fI+spnwtTFmyQP0h+PfIOSkNfpU6AOICUOkm4i0OnSk+NyjdPJrxCDro0sJsWlRpQ==
   dependencies:
     "@types/node" "*"
+
+"@types/jsonld@1.5.15":
+  version "1.5.15"
+  resolved "https://registry.yarnpkg.com/@types/jsonld/-/jsonld-1.5.15.tgz#55dde3077c23986e5f2a3b62356d667bfb03fc71"
+  integrity sha512-PlAFPZjL+AuGYmwlqwKEL0IMP8M8RexH0NIPGfCVWSQ041H2rR/8OlyZSD7KsCVoN8vCfWdtWDBxX8yBVP+xow==
 
 "@types/jsonld@^1.5.6":
   version "1.5.7"
@@ -1538,6 +1551,11 @@ canonicalize@^1.0.1:
   version "1.0.8"
   resolved "https://registry.npmjs.org/canonicalize/-/canonicalize-1.0.8.tgz"
   integrity sha512-0CNTVCLZggSh7bc5VkX5WWPWO+cyZbNd07IHIsSXLia/eAq+r836hgk+8BKoEh7949Mda87VUOitx5OddVj64A==
+
+canonicalize@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/canonicalize/-/canonicalize-2.1.0.tgz#92a20ecfb94e96591badf4977dc2fb1bfbc31dc5"
+  integrity sha512-F705O3xrsUtgt98j7leetNhTWPe+5S72rlL5O4jA1pKqBVQ/dT1O1D6PFxmSXvc0SUOinWS57DKx0I3CHrXJHQ==
 
 caseless@~0.12.0:
   version "0.12.0"
@@ -3118,6 +3136,16 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
+jsonld@9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/jsonld/-/jsonld-9.0.0.tgz#2b7266a377e1e5e6f49d69a60cef957c2945c3b4"
+  integrity sha512-pjMIdkXfC1T2wrX9B9i2uXhGdyCmgec3qgMht+TDj+S0qX3bjWMQUfL7NeqEhuRTi8G5ESzmL9uGlST7nzSEWg==
+  dependencies:
+    "@digitalbazaar/http-client" "^4.2.0"
+    canonicalize "^2.1.0"
+    lru-cache "^6.0.0"
+    rdf-canonize "^5.0.0"
+
 jsonld@^5.2.0:
   version "5.2.0"
   resolved "https://registry.npmjs.org/jsonld/-/jsonld-5.2.0.tgz"
@@ -3150,6 +3178,11 @@ ky@^0.25.1:
   version "0.25.1"
   resolved "https://registry.npmjs.org/ky/-/ky-0.25.1.tgz"
   integrity sha512-PjpCEWlIU7VpiMVrTwssahkYXX1by6NCT0fhTUX34F3DTinARlgMpriuroolugFPcMgpPWrOW4mTb984Qm1RXA==
+
+ky@^1.14.3:
+  version "1.14.3"
+  resolved "https://registry.yarnpkg.com/ky/-/ky-1.14.3.tgz#d7fcc6ac93d1588accee72cc44dcc6cf84c0bdaa"
+  integrity sha512-9zy9lkjac+TR1c2tG+mkNSVlyOpInnWdSMiue4F+kq8TwJSgv6o8jhLRg8Ho6SnZ9wOYUq/yozts9qQCfk7bIw==
 
 leven@^3.1.0:
   version "3.1.0"
@@ -3754,6 +3787,13 @@ rdf-canonize@^3.0.0:
   version "3.3.0"
   resolved "https://registry.npmjs.org/rdf-canonize/-/rdf-canonize-3.3.0.tgz"
   integrity sha512-gfSNkMua/VWC1eYbSkVaL/9LQhFeOh0QULwv7Or0f+po8pMgQ1blYQFe1r9Mv2GJZXw88Cz/drnAnB9UlNnHfQ==
+  dependencies:
+    setimmediate "^1.0.5"
+
+rdf-canonize@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/rdf-canonize/-/rdf-canonize-5.0.0.tgz#0bbad390c4beebaadf820e3888d495ac0b8cfb05"
+  integrity sha512-g8OUrgMXAR9ys/ZuJVfBr05sPPoMA7nHIVs8VEvg9QwM5W4GR2qSFEEHjsyHF1eWlBaf8Ev40WNjQFQ+nJTO3w==
   dependencies:
     setimmediate "^1.0.5"
 
@@ -4390,6 +4430,11 @@ undici-types@~7.8.0:
   version "7.8.0"
   resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-7.8.0.tgz#de00b85b710c54122e44fbfd911f8d70174cd294"
   integrity sha512-9UJ2xGDvQ43tYyVMpuHlsgApydB8ZKfVYTsLDhXkFL/6gfkp+U8xTGdh8pMJv1SpZna0zxG1DwsKZsreLbXBxw==
+
+undici@^6.28.0:
+  version "6.29.0"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-6.29.0.tgz#140fa16e337ac706d6ff12f03fbe5c4357e5f9a3"
+  integrity sha512-R+RODBqp6i2pPflGdq+xIOUkl+RNfGgHwoinecKu/JCuf2uO06cOKoDbI2P7Dn6KcswdKwrczbU6IYJ6K8X+wg==
 
 unified@^9.2.1:
   version "9.2.2"
