@@ -1,3 +1,4 @@
+import { version } from "axe-core";
 import * as fs from "fs";
 import * as os from "os";
 import * as path from "path";
@@ -20,12 +21,12 @@ describe("runTestCases cache", () => {
     },
   };
   const assertor: Assertor = {
-    "@id": "https://github.com/dequelabs/axe-core/releases/tag/4.10.3",
+    "@id": `https://github.com/dequelabs/axe-core/releases/tag/${version}`,
     "@type": "Assertor",
     name: "axe-core",
     release: {
       "@type": "Version",
-      revision: "4.10.3",
+      revision: version,
     },
   };
 

@@ -1,3 +1,4 @@
+import { version } from "axe-core";
 import axeReporterEarl, { earlUntested, concatReport } from "../axeReporterEarl";
 import context from '../context';
 import raw from '../../__test-utils__/data/raw-results-73f2c2.json';
@@ -97,12 +98,12 @@ describe(`axe-reporter-earl`, () => {
 
   describe(`concatReport fn`, () => {
     const assertor: Assertor = {
-      "@id": "https://github.com/dequelabs/axe-core/releases/tag/4.10.3",
+      "@id": `https://github.com/dequelabs/axe-core/releases/tag/${version}`,
       "@type": "Assertor",
       name: "axe-core",
       release: {
         "@type": "Version",
-        revision: "4.10.3"
+        revision: version
       }
     };
 

@@ -1,3 +1,4 @@
+import { version } from "axe-core";
 import { expand, frame, NodeObject } from "jsonld";
 import context from "../context";
 
@@ -22,22 +23,23 @@ const assertorFrame = {
 };
 
 describe("EARL context", () => {
+  const releaseUrl = `https://github.com/dequelabs/axe-core/releases/tag/${version}`;
   const report = {
     "@context": context,
     "@graph": [
       {
         "@type": "Assertor",
-        "@id": "https://github.com/dequelabs/axe-core/releases/tag/4.10.3",
+        "@id": releaseUrl,
         name: "axe-core",
         release: {
           "@type": "Version",
-          revision: "4.10.3",
+          revision: version,
         },
       },
       {
         "@type": "Assertion",
         mode: "earl:automatic",
-        assertedBy: "https://github.com/dequelabs/axe-core/releases/tag/4.10.3",
+        assertedBy: releaseUrl,
         subject: {
           "@type": ["earl:TestSubject", "sch:WebPage"],
           source: "https://example.com/page",
@@ -65,7 +67,7 @@ describe("EARL context", () => {
     };
 
     expect(assertor.name).toBe("axe-core");
-    expect(assertor.release?.revision).toBe("4.10.3");
+    expect(assertor.release?.revision).toBe(version);
   });
 
   test("expands assertor name and release to DOAP and leaves assertion IRIs on EARL", async () => {
@@ -81,13 +83,13 @@ describe("EARL context", () => {
     expect(assertor?.[`${doap}release`]).toEqual([
       {
         "@type": [`${doap}Version`],
-        [`${doap}revision`]: [{ "@value": "4.10.3" }],
+        [`${doap}revision`]: [{ "@value": version }],
       },
     ]);
 
     expect(assertion?.[`${earl}mode`]).toEqual([{ "@id": `${earl}automatic` }]);
     expect(assertion?.[`${earl}assertedBy`]).toEqual([
-      { "@id": "https://github.com/dequelabs/axe-core/releases/tag/4.10.3" },
+      { "@id": releaseUrl },
     ]);
     expect(assertion?.[`${earl}result`]).toEqual([
       {
