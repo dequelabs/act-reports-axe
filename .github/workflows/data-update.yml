@@ -2,8 +2,8 @@ name: Axe data update
 on:
   workflow_dispatch:
   schedule:
-    # Run daily, 5:00 UTC - an hour before the WAI site checks for updates
-    - cron: '0 5 * * *'
+    # Weekly, Saturday 00:00 UTC, after the work week has landed
+    - cron: '0 0 * * 6'
 
 jobs:
   report:
@@ -19,8 +19,8 @@ jobs:
           key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
       - run: git fetch
       - run: git checkout act-reports-axe
-      ## Make sure we have the latest version of axe-core
-      - run: yarn upgrade axe-core@next
+      ## Make sure we have the latest stable version of axe-core
+      - run: yarn upgrade axe-core@latest
       - run: yarn cleanup:core
       - run: yarn report
       - name: Git configure
@@ -29,5 +29,5 @@ jobs:
           git config user.email github-actions@github.com
       - run: git add reports/. package.json yarn.lock
       # Commit if there's anything staged
-      - run: git diff-index --quiet HEAD || git commit -m "Daily update of axe ACT reports" --no-verify
+      - run: git diff-index --quiet HEAD || git commit -m "Weekly update of axe ACT reports" --no-verify
       - run: git push
