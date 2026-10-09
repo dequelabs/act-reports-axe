@@ -1,5 +1,5 @@
 import context from './context';
-import { RawResult, Env, Assertion, EarlReport } from '../types';
+import { RawResult, Env, Assertion, Assertor, EarlReport } from '../types';
 import { tagsToWcagUrls } from './tagsToWcagUrls';
 
 export default function axeReporterEarl(
@@ -112,7 +112,10 @@ export function earlAssertion({
 /**
  * Concat multiple assertions
  */
-export function concatReport(testResults: EarlReport[]): EarlReport {
+export function concatReport(
+  testResults: EarlReport[],
+  assertor?: Assertor
+): EarlReport<Assertion | Assertor> {
   // Flatten the graphs into a single array
   const graphs = testResults.reduce((graph: Assertion[], result: EarlReport) => {
     return graph.concat(result["@graph"]);
@@ -120,6 +123,6 @@ export function concatReport(testResults: EarlReport[]): EarlReport {
 
   return {
     "@context": context,
-    "@graph": graphs
+    "@graph": assertor ? [...graphs, assertor] : graphs
   };
 }

@@ -1,6 +1,6 @@
 import * as fs from 'fs'
 import * as path from 'path';
-import { Config, TestCase, Assertion, EarlReport } from '../types';
+import { Config, TestCase, Assertion, Assertor, EarlReport } from '../types';
 import { groupedTestCases, loadTestCases } from './groupTestCases';
 import { runRuleTests, PageRunner } from './runRuleTests';
 
@@ -52,5 +52,8 @@ function getCacheResults({ outFile }: Config): Assertion[] {
   if (!fs.existsSync(outFile)) {
     return [];
   }
-  return require(path.resolve(outFile))["@graph"];
+  return require(path.resolve(outFile))["@graph"].filter(
+    (node: Assertion | Assertor): node is Assertion =>
+      node["@type"] === "Assertion"
+  );
 }

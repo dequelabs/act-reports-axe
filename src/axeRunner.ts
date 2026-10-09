@@ -4,10 +4,20 @@ import { axeRunTestCase } from './axeRunTestCase';
 import { runTestsInPage, startPuppeteer, stopPuppeteer } from './act-runner/runTestsInPage';
 import { Config } from './types';
 import { testCaseJson } from '../package.json';
+import { version } from 'axe-core';
 
 const config: Config = {
   outFile: './reports/axe-core.json',
-  testCaseJson
+  testCaseJson,
+  assertor: {
+    "@id": `https://github.com/dequelabs/axe-core/releases/tag/${version}`,
+    "@type": "Assertor",
+    name: "axe-core",
+    release: {
+      "@type": "Version",
+      revision: version
+    }
+  }
 }
 
 async function main() {
