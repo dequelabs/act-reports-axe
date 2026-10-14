@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - run: git fetch origin act-reports-axe
+      - run: git checkout act-reports-axe
       - uses: actions/setup-node@v4
       - uses: actions/cache@v4
         with:
@@ -17,10 +19,18 @@ jobs:
             **/node_modules
             !**/node_modules/.cache
           key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
-      - run: git fetch
-      - run: git checkout act-reports-axe
+      # Install after the branch switch so the cache and postinstall build
+      # match act-reports-axe, including the compiled act-tools CLI.
+      - run: yarn install --frozen-lockfile
       ## Make sure we have the latest stable version of axe-core
       - run: yarn upgrade axe-core@latest
+      # Compile act-tools in place. Its postinstall build does not run here,
+      # and a stale tsbuildinfo makes `tsc` exit without writing dist/.
+      - run: |
+          rm -rf node_modules/act-tools/dist
+          rm -f node_modules/act-tools/tsconfig.tsbuildinfo
+          ./node_modules/.bin/tsc -p node_modules/act-tools --pretty false
+          test -f node_modules/act-tools/dist/cli/map-implementation.js
       - run: yarn cleanup:core
       - run: yarn report
       - name: Git configure
