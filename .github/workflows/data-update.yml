@@ -24,9 +24,9 @@ jobs:
       - run: yarn install --frozen-lockfile
       ## Make sure we have the latest stable version of axe-core
       - run: yarn upgrade axe-core@latest
-      # Git installs do not leave a compiled CLI, and Yarn does not run the
-      # act-tools postinstall build during this job.
-      - run: yarn --cwd node_modules/act-tools build
+      # Git installs do not leave a compiled CLI. Build with npm so Yarn 1
+      # does not refuse act-tools' packageManager field.
+      - run: npm --prefix node_modules/act-tools run build
       - run: yarn cleanup:core
       - run: yarn report
       - name: Git configure
