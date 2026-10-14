@@ -24,9 +24,13 @@ jobs:
       - run: yarn install --frozen-lockfile
       ## Make sure we have the latest stable version of axe-core
       - run: yarn upgrade axe-core@latest
-      # Git installs do not leave a compiled CLI. Build with npm so Yarn 1
-      # does not refuse act-tools' packageManager field.
-      - run: npm --prefix node_modules/act-tools run build
+      # Compile act-tools in place. Its postinstall build does not run here,
+      # and a stale tsbuildinfo makes `tsc` exit without writing dist/.
+      - run: |
+          rm -rf node_modules/act-tools/dist
+          rm -f node_modules/act-tools/tsconfig.tsbuildinfo
+          ./node_modules/.bin/tsc -p node_modules/act-tools --pretty false
+          test -f node_modules/act-tools/dist/cli/map-implementation.js
       - run: yarn cleanup:core
       - run: yarn report
       - name: Git configure
