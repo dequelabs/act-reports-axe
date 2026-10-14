@@ -1284,10 +1284,10 @@ asynckit@^0.4.0:
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
 
-axe-core@^4.11.4-canary.3a012a1:
-  version "4.11.4-canary.3a012a1"
-  resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.11.4-canary.3a012a1.tgz#025311f338b523ce42c3e2d54cc8b67d023fd970"
-  integrity sha512-Jzw8ch34wLPvkeL2mX/1doBSGoJlwEBQjxIp9ACZpM2KdMnBZn443A9XbtUrs5CbUHO2SJ8jrdU8dyLWwags9w==
+axe-core@^4.14.0:
+  version "4.14.0"
+  resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.14.0.tgz#a9819d3932a8198fbe935d8cbd8afcdfecbcf31d"
+  integrity sha512-9WTZxEjsZ7b13TH8JPmbV2z8CHbl80/2hm3XPEG4JgNdQLK81IBRXmSxHfMAOkSqQeRxT/0dwNDz2GOm3zzpcQ==
 
 axe-core@^4.4.3:
   version "4.4.3"
