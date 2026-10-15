@@ -46,7 +46,7 @@ export const axeRunTestCase: ToolRunner = async (
   const tracked = page as Page & { pendingAssetRewrite?: boolean };
   if (tracked.pendingAssetRewrite) {
     tracked.pendingAssetRewrite = false;
-    await page.waitForNetworkIdle({ idleTime: 200, timeout: 15000 }).catch(() => undefined);
+    await page.waitForNetworkIdle({ idleTime: 200, timeout: 15000 });
   }
 
   // if given page is of type `html`, ensure it loaded
