@@ -27,5 +27,11 @@ export const manualRulesMapping: Record<string, string[]> = {
    * Rule: meta viewport does not prevent zoom
    * Url: https://act-rules.github.io/rules/b4f0c3
    */
-  b4f0c3: ["meta-viewport"]
+  b4f0c3: ["meta-viewport"],
+  /**
+   * Rule: summary element has non-empty accessible name
+   * Url: https://act-rules.github.io/rules/2t702h
+   * Remove when https://github.com/dequelabs/axe-core/issues/5470 is resolved.
+   */
+  "2t702h": ["summary-name"],
 };
