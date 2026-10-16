@@ -110,7 +110,7 @@ async function resolveNetlifyAssetUrl(rawUrl: string): Promise<string | undefine
 async function urlOk(href: string): Promise<boolean> {
   try {
     const response = await Axios.head(href, {
-      timeout: 10000,
+      timeout: 5000,
       validateStatus: () => true,
     });
     return response.status < 400;
