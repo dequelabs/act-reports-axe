@@ -23,14 +23,10 @@ export const axeRunTestCase: ToolRunner = async (
   testCase: TestCase
 ): Promise<EarlReport | void> => {
   const { ruleSuccessCriterion: tags = [], ruleId } = testCase;
-  let url = testCase?.url;
-  // Workaround for Netlify issue where the Object rule won't load the images
-  if (testCase.ruleId !== '8fc3b6') {
-    url = (testCase?.url || "").replace(
-      'https://www.w3.org/WAI/',
-      'https://wai-wcag-act-rules.netlify.app/'
-    )
-  }
+  const url = (testCase?.url || "").replace(
+    'https://www.w3.org/WAI/',
+    'https://wai-wcag-act-rules.netlify.app/'
+  )
 
   // check if running axe should be ignored
   const extn = getFileExtension(url);
@@ -41,10 +37,21 @@ export const axeRunTestCase: ToolRunner = async (
     return earlUntested(env);
   }
 
-  // Get the page and make sure it loads correctly
+  // Get the page and make sure it loads correctly.
+  // Asset paths like /WAI/content-assets/ are rewritten in startPuppeteer
+  // when that path 404s on the Netlify host.
   await page.goto(url, { waitUntil: "networkidle0" });
-  if (testCase.ruleId === '8fc3b6') {
-    await new Promise(r => setTimeout(r, 200))
+  // A paused asset rewrite does not count as network activity, so the object
+  // may still be loading when networkidle0 resolves.
+  const tracked = page as Page & { pendingAssetRewrite?: boolean };
+  if (tracked.pendingAssetRewrite) {
+    tracked.pendingAssetRewrite = false;
+    try {
+      await page.waitForNetworkIdle({ idleTime: 200, timeout: 25000 });
+    } catch {
+      console.log(`Assets still loading for ${url}`);
+      return earlUntested(env);
+    }
   }
 
   // if given page is of type `html`, ensure it loaded
