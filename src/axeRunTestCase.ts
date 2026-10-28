@@ -9,6 +9,7 @@ import axeReporterEarl, { earlUntested } from "./axe-reporter-earl/axeReporterEa
 import {
   rulesAxeOptions,
   inapplicableFileExtensions,
+  manualRulesMapping,
 } from "./config";
 import { Page } from "puppeteer";
 import { RawResult, TestCase, ToolRunner } from "./types";
@@ -117,9 +118,9 @@ function getFileExtension(str: string) {
 /**
  * Get axe rules to run
  */
-function getAxeRuleIdsToRun(actRuleId: string): string[] {
-  let axeRules = axe.getRules().filter(rule => {
+export function getAxeRuleIdsToRun(actRuleId: string): string[] {
+  const axeRuleIds = axe.getRules().filter(rule => {
     return rule.actIds?.includes(actRuleId)
-  })
-  return axeRules.map(axeRule => axeRule.ruleId);
+  }).map(axeRule => axeRule.ruleId);
+  return [...axeRuleIds, ...(manualRulesMapping[actRuleId] ?? [])];
 }
